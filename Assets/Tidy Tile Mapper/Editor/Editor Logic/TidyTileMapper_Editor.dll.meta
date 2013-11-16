@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d40ab19f07b91c748b453a81ea3f0baa
+labels:
+- construct
+- tilebased
+- paint
+- design
+- map
+- level
+- block
+- tile
+MonoAssemblyImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder: {}
