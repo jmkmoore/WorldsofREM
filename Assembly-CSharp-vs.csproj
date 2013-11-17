@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Camera2D.cs" />
      <Compile Include="Assets\Tidy Tile Mapper\API Examples\LevelGeneration\LevelGenerator.cs" />
      <Compile Include="Assets\Tidy Tile Mapper\API Examples\LevelGeneration\LevelGenerators\PerlinGenerator.cs" />
      <Compile Include="Assets\Tidy Tile Mapper\API Examples\LevelGeneration\Runtime_Demo.cs" />
