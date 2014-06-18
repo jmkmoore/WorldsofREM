@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_0;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_2;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -39,39 +39,29 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>F:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>F:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Camera2D.cs" />
-     <Compile Include="Assets\Scripts\LightController.cs" />
-     <Compile Include="Assets\Scripts\LightOrb.cs" />
-     <Compile Include="Assets\Scripts\Settings.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\API Examples\LevelGeneration\LevelGenerator.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\API Examples\LevelGeneration\LevelGenerators\PerlinGenerator.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\API Examples\LevelGeneration\Runtime_Demo.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\Tidy Controllers\Controllers\AnimationHandling\AnimationPackage.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\Tidy Controllers\Controllers\Entity.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\Tidy Controllers\Controllers\EntityController.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\Tidy Controllers\Controllers\EntityTemplates\PathingEntity.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\Tidy Controllers\Controllers\EntityTemplates\PatrollingEntity.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\Tidy Controllers\Controllers\EntityTemplates\PlatformerEntity.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\Tidy Controllers\Controllers\EntityTypes\FreeRoamPlatformEntity.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\Tidy Controllers\Controllers\EntityTypes\OCDPatrollingEntity.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\Tidy Controllers\Controllers\EntityTypes\PlatformerPlayer.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\Tidy Controllers\Controllers\EntityTypes\RandomPathingEntity.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\Tidy Streaming Maps\Example\StreamingRunner.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\Tidy Streaming Maps\StreamingMap.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\Tidy Streaming Maps\StreamingMapColorProfile.cs" />
-     <None Include="Assets\Tidy Tile Mapper\readme.txt" />
+     <Compile Include="Assets\Scripts\Abstract\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Player.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Static.cs" />
+     <Compile Include="Assets\Scripts\Abstract\TienEntity.cs" />
+     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\InputManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\LevelLoader.cs" />
+     <Compile Include="Assets\Scripts\Managers\PropertyManager.cs" />
+     <Compile Include="Assets\Scripts\Player Classes\DefaultPlayer.cs" />
+     <Compile Include="Assets\Scripts\Util\DeathTile.cs" />
+     <Compile Include="Assets\Scripts\Util\DetectGround.cs" />
+     <Compile Include="Assets\Scripts\Util\IgnoreCeilingCollision.cs" />
+     <Compile Include="Assets\Scripts\Util\SmoothCamera2D.cs" />
+     <None Include="Assets\Resources\Levels\XML\TestMap.xml" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
- </Reference>
- <Reference Include="TidyTileMapper">
- <HintPath>Assets\Tidy Tile Mapper\Mapping\TidyTileMapper.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
