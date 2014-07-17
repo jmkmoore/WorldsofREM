@@ -46,21 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Tidy Tile Mapper\Editor\Editor Windows\AssetPoolWindow.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\Editor\Editor Windows\BlockEditorWindow.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\Editor\Editor Windows\MapCreatorWindow.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\Editor\Editor Windows\Update Prompts\UpdateWindow.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\Tidy Streaming Maps\Editor\ColorProfileEditor.cs" />
-     <Compile Include="Assets\Tidy Tile Mapper\Tidy Streaming Maps\Editor\StreamingEditor.cs" />
-     <None Include="Assets\Tidy Tile Mapper\readme.txt" />
+     <Compile Include="Assets\Editor\SetPivot.cs" />
+     <None Include="Assets\Resources\Levels\XML\TestMap.xml" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
- </Reference>
- <Reference Include="TidyTileMapper_Editor">
- <HintPath>Assets\Tidy Tile Mapper\Editor\Editor Logic\TidyTileMapper_Editor.dll</HintPath>
- </Reference>
- <Reference Include="TidyTileMapper">
- <HintPath>Assets\Tidy Tile Mapper\Mapping\TidyTileMapper.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>D:\Program Files\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>

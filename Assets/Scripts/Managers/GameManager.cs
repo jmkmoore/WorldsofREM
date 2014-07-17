@@ -78,7 +78,8 @@ public class GameManager : MonoBehaviour {
 	void SetLevelState(int state){
 		switch(state){
 		case 0:
-			GetComponent<LevelLoader>().LoadLevel("TestMap");
+			//GetComponent<LevelLoader>().LoadLevel("TestMap");
+			GetComponent<LevelLoader>().LoadLevel("Level 1 refinished");
 			break;
 		case 100:
 

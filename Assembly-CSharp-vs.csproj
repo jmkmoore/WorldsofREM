@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\Util\IgnoreCeilingCollision.cs" />
      <Compile Include="Assets\Scripts\Util\SmoothCamera2D.cs" />
      <None Include="Assets\Resources\Levels\XML\TestMap.xml" />
+     <None Include="Assets\Resources\Levels\XML\Level 1 refinished.xml" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
