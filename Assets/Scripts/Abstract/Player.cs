@@ -19,6 +19,9 @@ public abstract class Player : TienEntity {
 	abstract protected void SetAnimationParameters();
 	abstract public void JumpAction();
 	abstract public void UseAction();
+	abstract public void DashAction();
 	abstract public void SetGrounded(bool ground);
 	abstract public void KillPlayer();
+	abstract public void setDirection(bool rightOrLeft);
+	abstract public void lightGunAction();
 }
