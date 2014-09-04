@@ -6,7 +6,6 @@ public class InputManager : MonoBehaviour
 
 		private static InputManager _instance;
 		private Player player;
-
 		public float ButtonDelay;
 		float lastJump = 0;
 		float lastUse = 0;
@@ -16,6 +15,9 @@ public class InputManager : MonoBehaviour
 		public bool RightButton = false;
 		public bool JumpButton = false;
 		public bool UseButton = false;
+		public bool AttackButton = false;
+		public bool DashButton = false;
+	public bool GunButton = false;
 
 		void Awake ()
 		{
@@ -33,12 +35,15 @@ public class InputManager : MonoBehaviour
 		{
 				if (player == null) {
 						GameObject go = GameObject.FindGameObjectWithTag ("Player");
-						if(go!=null)player = go.GetComponent<Player> ();
+						if (go != null)
+								player = go.GetComponent<Player> ();
 				} else if (player.IsAlive) {
 						if (LeftButton) {
 								player.rigidbody.velocity = new Vector2 (-1 * PropertyManager.getInstance ().RunSpeed, player.rigidbody.velocity.y);
+								player.setDirection (false);
 						} else if (RightButton) {
 								player.rigidbody.velocity = new Vector2 (PropertyManager.getInstance ().RunSpeed, player.rigidbody.velocity.y);
+								player.setDirection (true);
 						} else {
 								player.rigidbody.velocity = new Vector2 (0, player.rigidbody.velocity.y);
 						}
@@ -51,32 +56,48 @@ public class InputManager : MonoBehaviour
 								player.UseAction ();
 								lastUse = Time.time;
 						}
+						if (DashButton && Time.time > lastUse + ButtonDelay) {
+								player.DashAction ();
+								lastUse = Time.time;
+						}
+						if(GunButton && Time.time > lastUse + ButtonDelay){
+				player.lightGunAction ();
+				lastUse = Time.time;
+						}
 				}
 
 
-		if (Input.GetKey (KeyCode.LeftArrow)) {
-			LeftButton = true;
-			RightButton = false;
-		} else if (Input.GetKey (KeyCode.RightArrow)) {
-			LeftButton = false;
-			RightButton = true;
-		} else {
-			LeftButton = false;
-			RightButton = false;
-		}
+				if (Input.GetKey (KeyCode.LeftArrow)) {
+						LeftButton = true;
+						RightButton = false;
+				} else if (Input.GetKey (KeyCode.RightArrow)) {
+						LeftButton = false;
+						RightButton = true;
+				} else {
+						LeftButton = false;
+						RightButton = false;
+				}
 		
-		if (Input.GetKeyDown (KeyCode.Space)) {
-			JumpButton = true;
-		}else{
-			JumpButton = false;
-		}
+				if (Input.GetKeyDown (KeyCode.Space)) {
+						JumpButton = true;
+				} else {
+						JumpButton = false;
+				}
 		
-		if (Input.GetKeyDown (KeyCode.LeftShift)) {
-			UseButton = true;
-		}else{
-			UseButton = false;
-		      }
+				if (Input.GetKeyDown (KeyCode.LeftShift)) {
+						DashButton = true;
+				} else {
+						DashButton = false;
+				}
+			if(Input.GetKeyDown (KeyCode.Z)){
+				GunButton = true;
+			}else{
+				GunButton = false;
+			}
 
-		
+		}
+
+		void FixedUpdate(){
+
 		}
 }
