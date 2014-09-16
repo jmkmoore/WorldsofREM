@@ -54,11 +54,11 @@
      <Compile Include="Assets\Scripts\Managers\InputManager.cs" />
      <Compile Include="Assets\Scripts\Managers\LevelLoader.cs" />
      <Compile Include="Assets\Scripts\Managers\PropertyManager.cs" />
+     <Compile Include="Assets\Scripts\Objects\Projectile.cs" />
      <Compile Include="Assets\Scripts\Player Classes\DefaultPlayer.cs" />
      <Compile Include="Assets\Scripts\Util\DeathTile.cs" />
      <Compile Include="Assets\Scripts\Util\DetectGround.cs" />
      <Compile Include="Assets\Scripts\Util\IgnoreCeilingCollision.cs" />
-     <Compile Include="Assets\Scripts\Util\Projectile.cs" />
      <Compile Include="Assets\Scripts\Util\SmoothCamera2D.cs" />
      <None Include="Assets\Resources\Levels\XML\TestMap.xml" />
      <None Include="Assets\Resources\Levels\XML\Level 1 refinished.xml" />
