@@ -25007,4 +25007,21 @@
    <tile gid="0"/>
   </data>
  </layer>
+ <objectgroup name="DefaultEnemy" width="500" height="50">
+  <object x="697" y="469" width="34" height="30">
+   <ellipse/>
+  </object>
+  <object x="1057" y="461" width="38" height="22">
+   <ellipse/>
+  </object>
+  <object x="1232" y="602" width="32" height="35">
+   <ellipse/>
+  </object>
+  <object x="1544" y="494" width="30" height="31">
+   <ellipse/>
+  </object>
+  <object x="1828" y="426" width="23" height="22">
+   <ellipse/>
+  </object>
+ </objectgroup>
 </map>

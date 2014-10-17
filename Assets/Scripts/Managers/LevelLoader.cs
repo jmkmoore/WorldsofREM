@@ -124,10 +124,11 @@ public class LevelLoader : MonoBehaviour {
 			Dictionary<string,string> props = new Dictionary<string,string>();
 			Vector2 pos = new Vector2(int.Parse(obj.Attributes.GetNamedItem("x").Value),int.Parse(obj.Attributes.GetNamedItem("y").Value));
 			props.Add("Type",obj.Attributes.GetNamedItem("type").Value);
+			Debug.Log ("Type" + obj.Attributes.GetNamedItem("type").Value);
 			foreach(XmlNode proplist in obj.ChildNodes){
 				foreach(XmlNode prop in proplist.ChildNodes){
 					//Debug.Log("Found prop for " + obj.Attributes.GetNamedItem("type").Value);
-					props.Add(prop.Attributes.GetNamedItem("name").Value,prop.Attributes.GetNamedItem("value").Value);
+					props.Add(prop.Attributes.GetNamedItem("name").Value, prop.Attributes.GetNamedItem("value").Value);
 				}
 			}
 
@@ -139,9 +140,10 @@ public class LevelLoader : MonoBehaviour {
 				entity.transform.position = new Vector3(pos.x/32f,-1f*pos.y/32f + ((102f-38f)/32f),0);
 				break;
 			case "Enemy":
+				props.Add("EnemyType",obj.Attributes.GetNamedItem("name").Value);
 				entity = Enemy.CreateEnemy(props);
 				entity.GetComponent<Enemy>().PlaceEnemyAtCoordinates(pos);
-					break;
+				break;
 			case "Static":
 				//TODO: IMPLEMENT
 				//entity = Static.CreateStatic(props);
