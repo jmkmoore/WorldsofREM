@@ -1,4 +1,5 @@
 ﻿<Properties GitUserInfo="UsingGIT">
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Managers\InputManager.cs">
     <Files>
@@ -10,6 +11,12 @@
       <File FileName="Assets\Scripts\Abstract\Static.cs" Line="18" Column="1" />
       <File FileName="Assets\Scripts\Abstract\TienEntity.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Util\DetectGround.cs" Line="1" Column="1" />
+=======
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemy Classes\DefaultEnemy.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Enemy Classes\DefaultEnemy.cs" Line="21" Column="27" />
+>>>>>>> origin/master
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
