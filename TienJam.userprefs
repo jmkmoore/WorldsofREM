@@ -1,14 +1,15 @@
 ﻿<Properties GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Abstract\Static.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Managers\InputManager.cs">
     <Files>
-      <File FileName="Assets\Scripts\Player Classes\DefaultPlayer.cs" Line="13" Column="33" />
+      <File FileName="Assets\Scripts\Player Classes\DefaultPlayer.cs" Line="39" Column="3" />
       <File FileName="Assets\Scripts\Abstract\Player.cs" Line="7" Column="2" />
       <File FileName="Assets\Scripts\Abstract\Enemy.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Managers\GameManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Managers\InputManager.cs" Line="56" Column="29" />
       <File FileName="Assets\Scripts\Abstract\Static.cs" Line="18" Column="1" />
       <File FileName="Assets\Scripts\Abstract\TienEntity.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Util\DetectGround.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
