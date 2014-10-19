@@ -8,8 +8,8 @@ public class DefaultPlayer : Player
 		bool isRightFacing = true;
 		bool hitWall	= false;
 		bool isDashing = false;
+	public Rigidbody Pellet; 
 
-	int numBullets = 0;
 		// Use this for initialization
 		void Start ()
 		{
@@ -97,7 +97,9 @@ public class DefaultPlayer : Player
 		void OnCollisionEnter(Collision col){
 			if(col.gameObject.name == "tile_34(Clone)"){
 				hitWall = true;
+			DestroyObject(col.gameObject);
 			}
+			
 		Debug.Log ("Is Grounded on collision: " + grounded);
 		}
 
@@ -108,8 +110,6 @@ public class DefaultPlayer : Player
 		}
 
 		override public void lightGunAction (){
-//		Rigidbody clone;
-//		clone = Instantiate ((Rigidbody)Bullet, transform.position, transform.rotation) as Rigidbody;
-//		clone.velocity = transform.TransformDirection (Vector3.right * 10);
+		Rigidbody bullet = Instantiate (Pellet, transform.position, transform.rotation) as Rigidbody;
 		}
 }
