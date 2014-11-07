@@ -8,6 +8,7 @@ public class DefaultPlayer : Player
 		bool isRightFacing = true;
 		bool hitWall	= false;
 		bool isDashing = false;
+
 	public Rigidbody Pellet; 
 
 		// Use this for initialization
@@ -28,11 +29,7 @@ public class DefaultPlayer : Player
 			//	ApplyInputs ();
 				SetAnimationParameters ();
 
-				if (rigidbody.velocity.x < 0)
-						transform.localScale = new Vector3 (-1, 1, 1);
-				else if (rigidbody.velocity.x > 0)
-						transform.localScale = new Vector3 (1, 1, 1);
-		}
+				}
 
 		override protected void ApplyInputs ()
 		{
@@ -92,15 +89,6 @@ public class DefaultPlayer : Player
 		public void OnDeath ()
 		{
 				LevelLoader.getInstance ().ReloadCurrentLevel ();
-		}
-
-		void OnCollisionEnter(Collision col){
-			if(col.gameObject.name == "tile_34(Clone)"){
-				hitWall = true;
-			DestroyObject(col.gameObject);
-			}
-			
-		Debug.Log ("Is Grounded on collision: " + grounded);
 		}
 
 

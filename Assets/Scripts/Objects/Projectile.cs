@@ -15,21 +15,31 @@ public class Projectile : MonoBehaviour
 		// Update is called once per frame
 		void Update ()
 		{
-				float movementAmt = projectileSpeed * Time.deltaTime;
-				if (fireRight) {
-						transform.Translate (Vector3.up * movementAmt);
-				} else {
-						transform.Translate (Vector3.up * movementAmt * -1);
-				}
+			float movementAmt = projectileSpeed * Time.deltaTime;
+			//	if (fireRight) {
+			//			rigidbody.AddForce(Vector3.up * movementAmt, ForceMode.Force);
+			transform.Translate (Vector3.up * movementAmt);
+			//	} else {
+			//			transform.Translate (Vector3.up * movementAmt * -1);
+			//	}
 		}
 
-		void OnCollisionEnter (Collision other)
+		void FixedUpdate(){
+				rigidbody.AddForce (Vector3.up * 10);
+		}
+
+		void OnTriggerEnter (Collider other)
 		{
 				Debug.Log ("bullet collision");
-				if (other.gameObject.name == ("tile_34(Clone)")) {
+				if (other.CompareTag ("Enemy")) {
+						DestroyObject (other.gameObject);
+						DestroyObject (gameObject);
+				} 
+				if (other.CompareTag ("Platform")) {
 						DestroyObject (other.gameObject);
 						DestroyObject (gameObject);
 				}
+				
 		}
 }
 

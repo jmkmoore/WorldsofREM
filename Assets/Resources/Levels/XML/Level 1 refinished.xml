@@ -25008,7 +25008,7 @@
   </data>
  </layer>
  <objectgroup name="DefaultEnemyGroup" width="500" height="50">
-  <object name="Enemy_Doll" type="Enemy" x="13" y="-16" width="58" height="38">
+  <object name="EnemyDoll" type="Enemy" x="13" y="-16" width="58" height="38">
    <ellipse/>
   </object>
   <object name="EnemyPlaceholder" type="Enemy" x="43" y="-16">

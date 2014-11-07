@@ -31,7 +31,7 @@ public class InputManager : MonoBehaviour
 		}
 	
 		// Update is called once per frame
-		void Update ()
+		void FixedUpdate ()
 		{
 				if (player == null) {
 						GameObject go = GameObject.FindGameObjectWithTag ("Player");
@@ -39,10 +39,10 @@ public class InputManager : MonoBehaviour
 								player = go.GetComponent<Player> ();
 				} else if (player.IsAlive) {
 						if (LeftButton) {
-								player.rigidbody.velocity = new Vector2 (-1 * PropertyManager.getInstance ().RunSpeed, player.rigidbody.velocity.y);
+								player.rigidbody.velocity = new Vector2 ((float)(-1 * PropertyManager.getInstance ().RunSpeed), player.rigidbody.velocity.y);
 								player.setDirection (false);
 						} else if (RightButton) {
-								player.rigidbody.velocity = new Vector2 (PropertyManager.getInstance ().RunSpeed, player.rigidbody.velocity.y);
+								player.rigidbody.velocity = new Vector2 ((float)(1 * PropertyManager.getInstance ().RunSpeed), player.rigidbody.velocity.y);
 								player.setDirection (true);
 						} else {
 								player.rigidbody.velocity = new Vector2 (0, player.rigidbody.velocity.y);
@@ -97,7 +97,7 @@ public class InputManager : MonoBehaviour
 
 		}
 
-		void FixedUpdate(){
+		void Update(){
 
 		}
 }

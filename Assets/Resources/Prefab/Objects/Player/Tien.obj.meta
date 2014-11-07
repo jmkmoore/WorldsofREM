@@ -1,0 +1,112 @@
+fileFormatVersion: 2
+guid: 6a8656b5bc70ac14d91d1eb42b383a11
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Tien_Grp_Tien_Bag
+    100004: Tien_Grp_Tien_Body
+    100006: Tien_Grp_Tien_Bustier
+    100008: Tien_Grp_Tien_Hair
+    100010: Tien_Grp_Tien_Lefteye
+    100012: Tien_Grp_Tien_Righteye
+    100014: Tien_Grp_Tien_Scarf
+    100016: Tien_Grp_Tien_Shirt
+    100018: Tien_Grp_Tien_Star
+    100020: Tien_Pants_Tien_Grp
+    400000: //RootNode
+    400002: Tien_Grp_Tien_Bag
+    400004: Tien_Grp_Tien_Body
+    400006: Tien_Grp_Tien_Bustier
+    400008: Tien_Grp_Tien_Hair
+    400010: Tien_Grp_Tien_Lefteye
+    400012: Tien_Grp_Tien_Righteye
+    400014: Tien_Grp_Tien_Scarf
+    400016: Tien_Grp_Tien_Shirt
+    400018: Tien_Grp_Tien_Star
+    400020: Tien_Pants_Tien_Grp
+    2300000: Tien_Grp_Tien_Bag
+    2300002: Tien_Grp_Tien_Body
+    2300004: Tien_Grp_Tien_Bustier
+    2300006: Tien_Grp_Tien_Hair
+    2300008: Tien_Grp_Tien_Lefteye
+    2300010: Tien_Grp_Tien_Righteye
+    2300012: Tien_Grp_Tien_Scarf
+    2300014: Tien_Grp_Tien_Shirt
+    2300016: Tien_Grp_Tien_Star
+    2300018: Tien_Pants_Tien_Grp
+    3300000: Tien_Grp_Tien_Bag
+    3300002: Tien_Grp_Tien_Body
+    3300004: Tien_Grp_Tien_Bustier
+    3300006: Tien_Grp_Tien_Hair
+    3300008: Tien_Grp_Tien_Lefteye
+    3300010: Tien_Grp_Tien_Righteye
+    3300012: Tien_Grp_Tien_Scarf
+    3300014: Tien_Grp_Tien_Shirt
+    3300016: Tien_Grp_Tien_Star
+    3300018: Tien_Pants_Tien_Grp
+    4300000: Tien_Grp_Tien_Bag
+    4300002: Tien_Grp_Tien_Body
+    4300004: Tien_Grp_Tien_Bustier
+    4300006: Tien_Grp_Tien_Hair
+    4300008: Tien_Grp_Tien_Lefteye
+    4300010: Tien_Grp_Tien_Righteye
+    4300012: Tien_Grp_Tien_Scarf
+    4300014: Tien_Grp_Tien_Shirt
+    4300016: Tien_Grp_Tien_Star
+    4300018: Tien_Pants_Tien_Grp
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
