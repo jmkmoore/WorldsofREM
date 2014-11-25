@@ -39,10 +39,10 @@ public class InputManager : MonoBehaviour
 								player = go.GetComponent<Player> ();
 				} else if (player.IsAlive) {
 						if (LeftButton) {
-								player.rigidbody.velocity = new Vector2 ((float)(-1 * PropertyManager.getInstance ().RunSpeed), player.rigidbody.velocity.y);
+								player.rigidbody.velocity = new Vector2 ((float)(-15 * PropertyManager.getInstance ().RunSpeed), player.rigidbody.velocity.y);
 								player.setDirection (false);
 						} else if (RightButton) {
-								player.rigidbody.velocity = new Vector2 ((float)(1 * PropertyManager.getInstance ().RunSpeed), player.rigidbody.velocity.y);
+								player.rigidbody.velocity = new Vector2 ((float)(15 * PropertyManager.getInstance ().RunSpeed), player.rigidbody.velocity.y);
 								player.setDirection (true);
 						} else {
 								player.rigidbody.velocity = new Vector2 (0, player.rigidbody.velocity.y);

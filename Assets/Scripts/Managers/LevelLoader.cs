@@ -28,10 +28,10 @@ public class LevelLoader : MonoBehaviour {
 	}
 
 	public void LoadLevel(string levelName){
-		LevelName = levelName;
-		PopulateTileList();
-		RenderLevel();
-		PopulateLevel();
+		//LevelName = levelName;
+		//PopulateTileList();
+		//RenderLevel();
+		//PopulateLevel();
 	}
 
 	public void ReloadCurrentLevel(){

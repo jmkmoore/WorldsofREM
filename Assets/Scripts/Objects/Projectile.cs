@@ -3,8 +3,9 @@ using System.Collections;
 
 public class Projectile : MonoBehaviour
 {
-		float projectileSpeed = 1;
+		float projectileSpeed = 15;
 		bool fireRight = true;
+	public int bulletDamage;
 
 		// Use this for initialization
 		void Start ()
@@ -30,16 +31,16 @@ public class Projectile : MonoBehaviour
 
 		void OnTriggerEnter (Collider other)
 		{
-				Debug.Log ("bullet collision");
-				if (other.CompareTag ("Enemy")) {
-						DestroyObject (other.gameObject);
-						DestroyObject (gameObject);
-				} 
+			if (other.CompareTag ("Enemy")) {
+			DestroyObject(gameObject);
+			EnemyHealth eh = (EnemyHealth)other.GetComponent ("EnemyHealth");
+			eh.adjustCurrentHealth(-10);
+			other.transform.rigidbody.AddForce(Vector3.forward * -1 * 100);
+			} 
 				if (other.CompareTag ("Platform")) {
 						DestroyObject (other.gameObject);
 						DestroyObject (gameObject);
 				}
-				
 		}
 }
 

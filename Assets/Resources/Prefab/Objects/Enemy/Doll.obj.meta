@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a8e8139927f4c2149ad8cb38ac5feccb
+guid: 81040f2a5f032394b91a78f91060d91a
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
@@ -10,7 +10,6 @@ ModelImporter:
     2300000: Doll
     3300000: Doll
     4300000: Doll
-    6400000: Doll
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -33,7 +32,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
