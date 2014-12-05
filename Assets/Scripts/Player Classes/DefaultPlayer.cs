@@ -6,7 +6,7 @@ public class DefaultPlayer : Player
 	
 		bool grounded = false;
 		bool isRightFacing = true;
-		bool hitWall	= false;
+		bool hitWall = false;
 		bool isDashing = false;
 
 	public Rigidbody Pellet; 
@@ -53,19 +53,20 @@ public class DefaultPlayer : Player
 
 		override public void JumpAction ()
 		{
-				if (grounded)
-						rigidbody.AddForce (transform.up * PropertyManager.getInstance ().JumpHeight);
-		Debug.Log ("Grounded is: " + grounded);
+				if (grounded) {
+						rigidbody.AddForce (transform.up * PropertyManager.getInstance ().JumpHeight, ForceMode.Impulse);
+						grounded = false;
+				}
 		}
 
 		override public void DashAction ()
 		{
 
 			if (isRightFacing) {
-				rigidbody.AddForce (Vector3.right * PropertyManager.getInstance ().JumpHeight * 10, ForceMode.Acceleration);
+				rigidbody.AddForce (Vector3.right * PropertyManager.getInstance ().JumpHeight, ForceMode.Impulse);
 			}
 			else{
-				rigidbody.AddForce (Vector3.left * PropertyManager.getInstance ().JumpHeight * 10, ForceMode.Acceleration);
+				rigidbody.AddForce (Vector3.left * PropertyManager.getInstance ().JumpHeight, ForceMode.Impulse);
 			}
 		}
 

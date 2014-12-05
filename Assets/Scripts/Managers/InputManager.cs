@@ -17,12 +17,23 @@ public class InputManager : MonoBehaviour
 		public bool UseButton = false;
 		public bool AttackButton = false;
 		public bool DashButton = false;
+	private Rigidbody thisRigidbody;
+	private Transform thisTransform;
+	private float runSpeed;
+
 	public bool GunButton = false;
 
 		void Awake ()
 		{
-				_instance = this;
-
+			_instance = this;
+			if (player == null) {
+				GameObject go = GameObject.FindGameObjectWithTag ("Player");
+				if (go != null)
+					player = go.GetComponent<Player> ();
+				}
+			thisRigidbody = player.rigidbody;
+			thisTransform = player.transform;
+			runSpeed = PropertyManager.getInstance ().RunSpeed;
 		}
 
 		public static InputManager getInstance ()
@@ -31,35 +42,36 @@ public class InputManager : MonoBehaviour
 		}
 	
 		// Update is called once per frame
-		void FixedUpdate ()
-		{
-				if (player == null) {
-						GameObject go = GameObject.FindGameObjectWithTag ("Player");
-						if (go != null)
-								player = go.GetComponent<Player> ();
-				} else if (player.IsAlive) {
-						if (LeftButton) {
-								player.rigidbody.velocity = new Vector2 ((float)(-15 * PropertyManager.getInstance ().RunSpeed), player.rigidbody.velocity.y);
-								player.setDirection (false);
-						} else if (RightButton) {
-								player.rigidbody.velocity = new Vector2 ((float)(15 * PropertyManager.getInstance ().RunSpeed), player.rigidbody.velocity.y);
-								player.setDirection (true);
-						} else {
-								player.rigidbody.velocity = new Vector2 (0, player.rigidbody.velocity.y);
-						}
+	void FixedUpdate ()
+	{
 
-						if (JumpButton && Time.time > lastJump + ButtonDelay) {
-								player.JumpAction ();
-								lastJump = Time.time;
-						}
-						if (UseButton && Time.time > lastUse + ButtonDelay) {
-								player.UseAction ();
-								lastUse = Time.time;
-						}
-						if (DashButton && Time.time > lastUse + ButtonDelay) {
-								player.DashAction ();
-								lastUse = Time.time;
-						}
+		if (player.IsAlive) {
+			if (LeftButton) {
+				//player.rigidbody.velocity = new Vector2 ((float)(-10 * PropertyManager.getInstance ().RunSpeed), player.rigidbody.velocity.y);
+				Vector3 movementInput = thisTransform.localPosition;
+				Vector3 movementDirection = movementInput.normalized * 10 * runSpeed;
+				thisRigidbody.MovePosition (thisTransform.position - (movementDirection*Time.deltaTime));
+				player.setDirection (false);
+			} else if (RightButton) {
+				//player.rigidbody.velocity = new Vector2 ((float)(10 * PropertyManager.getInstance ().RunSpeed), player.rigidbody.velocity.y);
+				Vector3 movementInput = thisTransform.localPosition;
+				Vector3 movementDirection = movementInput.normalized * 10 * runSpeed;
+				thisRigidbody.MovePosition(thisTransform.position + (movementDirection*Time.deltaTime));
+				player.setDirection (true);
+			}
+			
+				if (JumpButton && Time.time > lastJump + ButtonDelay) {
+					player.JumpAction ();
+					lastJump = Time.time;
+				}
+				if (UseButton && Time.time > lastUse + ButtonDelay) {
+					player.UseAction ();
+					lastUse = Time.time;
+				}
+				if (DashButton && Time.time > lastUse + ButtonDelay) {
+					player.DashAction ();
+					lastUse = Time.time;
+				}
 						if(GunButton && Time.time > lastUse + ButtonDelay){
 				player.lightGunAction ();
 				lastUse = Time.time;
