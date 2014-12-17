@@ -4,10 +4,13 @@ using System.Collections;
 public class DefaultPlayer : Player
 {
 	
-		bool grounded = false;
+		public bool grounded = false;
 		bool isRightFacing = true;
 		bool hitWall = false;
 		bool isDashing = false;
+	private int downVelocity;
+	private int previousYVelocity;
+		bool ignorePlat;
 
 	public Rigidbody Pellet; 
 
@@ -22,14 +25,19 @@ public class DefaultPlayer : Player
 	}
 		
 		
-		// Update is called once per frame
 		void Update ()
 		{
+				//if (!grounded) {
+					//	if (rigidbody.velocity.y <= 0 && !grounded)
+						//		Physics.IgnoreLayerCollision (9, 8, false);
+						//else
+						//		Physics.IgnoreLayerCollision (9, 8, true);
 
-			//	ApplyInputs ();
-				SetAnimationParameters ();
+						//	ApplyInputs ();
+						SetAnimationParameters ();
 
-				}
+				
+		}
 
 		override protected void ApplyInputs ()
 		{
@@ -57,6 +65,7 @@ public class DefaultPlayer : Player
 						rigidbody.AddForce (transform.up * PropertyManager.getInstance ().JumpHeight, ForceMode.Impulse);
 						grounded = false;
 				}
+				
 		}
 
 		override public void DashAction ()
@@ -80,6 +89,9 @@ public class DefaultPlayer : Player
 				grounded = ground;
 		}
 
+		override public bool GetGrounded(){
+				return grounded;
+		}
 		override public void KillPlayer ()
 		{
 				//GetComponent<Animator>().SetBool("Alive",false);

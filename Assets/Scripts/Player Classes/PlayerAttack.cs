@@ -7,6 +7,8 @@ public class PlayerAttack : MonoBehaviour {
 	public GameObject target;
 	public float attackTimer;
 	public float cooldown;
+	public double velocity;
+	public 
 	// Use this for initialization
 	void Start () {
 		attackTimer = 0;

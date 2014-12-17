@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts\Util\DeathTile.cs" />
      <Compile Include="Assets\Scripts\Util\DetectGround.cs" />
      <Compile Include="Assets\Scripts\Util\IgnoreCeilingCollision.cs" />
+     <Compile Include="Assets\Scripts\Util\PassThroughPlat.cs" />
      <Compile Include="Assets\Scripts\Util\SmoothCamera2D.cs" />
      <Compile Include="Assets\Scripts\Util\Targetting.cs" />
      <None Include="Assets\Resources\Levels\XML\_Level 1 refinished.xml" />

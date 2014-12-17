@@ -20,6 +20,7 @@ public class InputManager : MonoBehaviour
 	private Rigidbody thisRigidbody;
 	private Transform thisTransform;
 	private float runSpeed;
+	public LayerMask layer;
 
 	public bool GunButton = false;
 
@@ -48,19 +49,17 @@ public class InputManager : MonoBehaviour
 		if (player.IsAlive) {
 			if (LeftButton) {
 				//player.rigidbody.velocity = new Vector2 ((float)(-10 * PropertyManager.getInstance ().RunSpeed), player.rigidbody.velocity.y);
-				Vector3 movementInput = thisTransform.localPosition;
-				Vector3 movementDirection = movementInput.normalized * 10 * runSpeed;
-				thisRigidbody.MovePosition (thisTransform.position - (movementDirection*Time.deltaTime));
+				Vector3 movementDirection = Vector3.left * runSpeed;
+				thisRigidbody.MovePosition (thisTransform.position + (movementDirection*Time.deltaTime));
 				player.setDirection (false);
 			} else if (RightButton) {
 				//player.rigidbody.velocity = new Vector2 ((float)(10 * PropertyManager.getInstance ().RunSpeed), player.rigidbody.velocity.y);
-				Vector3 movementInput = thisTransform.localPosition;
-				Vector3 movementDirection = movementInput.normalized * 10 * runSpeed;
+				Vector3 movementDirection = Vector3.right * runSpeed;
 				thisRigidbody.MovePosition(thisTransform.position + (movementDirection*Time.deltaTime));
 				player.setDirection (true);
 			}
-			
-				if (JumpButton && Time.time > lastJump + ButtonDelay) {
+
+			if (JumpButton && Time.time > lastJump + ButtonDelay) {
 					player.JumpAction ();
 					lastJump = Time.time;
 				}

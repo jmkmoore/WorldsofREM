@@ -132,13 +132,149 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CATRigBody
+        weight: 1
+      - path: CATRigBody/CATRigBodyHead
+        weight: 1
+      - path: CATRigBody/CATRigBodyHead/CATRigBodyHeadMouthL
+        weight: 1
+      - path: CATRigBody/CATRigBodyHead/CATRigBodyHeadMouthL/CATRigBodyHeadMouthL1
+        weight: 1
+      - path: CATRigBody/CATRigBodyHead/CATRigBodyHeadMouthR
+        weight: 1
+      - path: CATRigBody/CATRigBodyHead/CATRigBodyHeadMouthR/CATRigBodyHeadMouthR1
+        weight: 1
+      - path: CATRigBody/CATRigLLeg1UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigLLeg2UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigLLeg3UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigLLeg4UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigLLeg11
+        weight: 1
+      - path: CATRigBody/CATRigLLeg11/CATRigLLeg12
+        weight: 1
+      - path: CATRigBody/CATRigLLeg11/CATRigLLeg12/CATRigLLeg1LAnkle1
+        weight: 1
+      - path: CATRigBody/CATRigLLeg21
+        weight: 1
+      - path: CATRigBody/CATRigLLeg21/CATRigLLeg22
+        weight: 1
+      - path: CATRigBody/CATRigLLeg21/CATRigLLeg22/CATRigLLeg2LAnkle2
+        weight: 1
+      - path: CATRigBody/CATRigLLeg31
+        weight: 1
+      - path: CATRigBody/CATRigLLeg31/CATRigLLeg32
+        weight: 1
+      - path: CATRigBody/CATRigLLeg31/CATRigLLeg32/CATRigLLeg3LAnkle3
+        weight: 1
+      - path: CATRigBody/CATRigLLeg41
+        weight: 1
+      - path: CATRigBody/CATRigLLeg41/CATRigLLeg42
+        weight: 1
+      - path: CATRigBody/CATRigLLeg41/CATRigLLeg42/CATRigLLeg4LAnkle4
+        weight: 1
+      - path: CATRigBody/CATRigRLeg1
+        weight: 1
+      - path: CATRigBody/CATRigRLeg1/CATRigRLeg2
+        weight: 1
+      - path: CATRigBody/CATRigRLeg1/CATRigRLeg2/CATRigRLegLAnkle4
+        weight: 1
+      - path: CATRigBody/CATRigRLeg1UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigRLeg2UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigRLeg3UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigRLeg11
+        weight: 1
+      - path: CATRigBody/CATRigRLeg11/CATRigRLeg12
+        weight: 1
+      - path: CATRigBody/CATRigRLeg11/CATRigRLeg12/CATRigRLeg1RAnkle1
+        weight: 1
+      - path: CATRigBody/CATRigRLeg21
+        weight: 1
+      - path: CATRigBody/CATRigRLeg21/CATRigRLeg22
+        weight: 1
+      - path: CATRigBody/CATRigRLeg21/CATRigRLeg22/CATRigRLeg2RAnkle2
+        weight: 1
+      - path: CATRigBody/CATRigRLeg31
+        weight: 1
+      - path: CATRigBody/CATRigRLeg31/CATRigRLeg32
+        weight: 1
+      - path: CATRigBody/CATRigRLeg31/CATRigRLeg32/CATRigRLeg3RAnkle3
+        weight: 1
+      - path: CATRigBody/CATRigRLegUpVectorNode
+        weight: 1
+      - path: CATRigBodyGizmo
+        weight: 1
+      - path: CATRigBodyHeadGizmo
+        weight: 1
+      - path: CATRigBodyHeadMouthL1Gizmo
+        weight: 1
+      - path: CATRigBodyHeadMouthLGizmo
+        weight: 1
+      - path: CATRigBodyHeadMouthR1Gizmo
+        weight: 1
+      - path: CATRigBodyHeadMouthRGizmo
+        weight: 1
+      - path: CATRigLLeg1Platform
+        weight: 1
+      - path: CATRigLLeg2Platform
+        weight: 1
+      - path: CATRigLLeg3Platform
+        weight: 1
+      - path: CATRigLLeg4Platform
+        weight: 1
+      - path: CATRigRLeg1Platform
+        weight: 1
+      - path: CATRigRLeg2Platform
+        weight: 1
+      - path: CATRigRLeg3Platform
+        weight: 1
+      - path: CATRigRLegPlatform
+        weight: 1
+      - path: Character001
+        weight: 1
+      - path: Nat_Spider2_polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 3
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

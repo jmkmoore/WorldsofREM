@@ -33,10 +33,13 @@ public class EnemyAI : MonoBehaviour {
 
 						if (Vector2.Distance (target.position, myTransform.position) > minDistance) {
 								//Move towards target
-								myTransform.position += myTransform.forward * 4 * moveSpeed * Time.deltaTime;
+							if(target.position.x < myTransform.position.x){
+								myTransform.position += Vector3.left * 4 * moveSpeed * Time.deltaTime;
+							}
+							if(target.position.x > myTransform.position.x){
+								myTransform.position += Vector3.right * 4 * moveSpeed * Time.deltaTime;
 						}
-				} else {
-			myTransform.position += myTransform.forward * moveSpeed * Time.deltaTime;
 				}
+		} 
 	}
 }
