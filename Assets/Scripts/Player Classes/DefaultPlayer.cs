@@ -11,13 +11,19 @@ public class DefaultPlayer : Player
 	private int downVelocity;
 	private int previousYVelocity;
 		bool ignorePlat;
+        private float runSpeed;
+        private Rigidbody2D thisRigidbody;
+        private Transform thisTransform;
+    
 
 	public Rigidbody Pellet; 
 
 		// Use this for initialization
 		void Start ()
 		{
-
+            thisRigidbody = rigidbody2D;
+            thisTransform = transform;
+            runSpeed = PropertyManager.getInstance().RunSpeed;
 		}
 
 	void FixedUpdate(){
@@ -62,7 +68,9 @@ public class DefaultPlayer : Player
 		override public void JumpAction ()
 		{
 				if (grounded) {
-						rigidbody.AddForce (transform.up * PropertyManager.getInstance ().JumpHeight, ForceMode.Impulse);
+                    Debug.Log("Jumping");
+						//rigidbody2D.AddForce (transform.up * PropertyManager.getInstance ().JumpHeight, ForceMode.Impulse);
+                    rigidbody2D.AddForce(transform.up * PropertyManager.getInstance().JumpHeight, ForceMode2D.Impulse);
 						grounded = false;
 				}
 				
@@ -72,10 +80,13 @@ public class DefaultPlayer : Player
 		{
 
 			if (isRightFacing) {
-				rigidbody.AddForce (Vector3.right * PropertyManager.getInstance ().JumpHeight, ForceMode.Impulse);
+                Vector3 movementDirection = Vector3.right * runSpeed * runSpeed;
+                thisRigidbody.MovePosition(thisTransform.position + (movementDirection * Time.deltaTime));
 			}
 			else{
-				rigidbody.AddForce (Vector3.left * PropertyManager.getInstance ().JumpHeight, ForceMode.Impulse);
+                Vector3 movementDirection = Vector3.left * runSpeed * runSpeed;
+                thisRigidbody.MovePosition(thisTransform.position + (movementDirection * Time.deltaTime));
+				//rigidbody.AddForce (Vector3.left * PropertyManager.getInstance ().JumpHeight, ForceMode.Impulse);
 			}
 		}
 

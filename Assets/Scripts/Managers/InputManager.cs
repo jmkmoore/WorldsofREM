@@ -17,10 +17,11 @@ public class InputManager : MonoBehaviour
 		public bool UseButton = false;
 		public bool AttackButton = false;
 		public bool DashButton = false;
-	private Rigidbody thisRigidbody;
+	private Rigidbody2D thisRigidbody;
 	private Transform thisTransform;
 	private float runSpeed;
 	public LayerMask layer;
+    public Vector2 velocity;
 
 	public bool GunButton = false;
 
@@ -32,7 +33,7 @@ public class InputManager : MonoBehaviour
 				if (go != null)
 					player = go.GetComponent<Player> ();
 				}
-			thisRigidbody = player.rigidbody;
+			thisRigidbody = player.rigidbody2D;
 			thisTransform = player.transform;
 			runSpeed = PropertyManager.getInstance ().RunSpeed;
 		}
@@ -52,10 +53,12 @@ public class InputManager : MonoBehaviour
 				Vector3 movementDirection = Vector3.left * runSpeed;
 				thisRigidbody.MovePosition (thisTransform.position + (movementDirection*Time.deltaTime));
 				player.setDirection (false);
+                //velocity = rigidbody2D.velocity;
 			} else if (RightButton) {
 				//player.rigidbody.velocity = new Vector2 ((float)(10 * PropertyManager.getInstance ().RunSpeed), player.rigidbody.velocity.y);
 				Vector3 movementDirection = Vector3.right * runSpeed;
 				thisRigidbody.MovePosition(thisTransform.position + (movementDirection*Time.deltaTime));
+                //velocity = .velocity;
 				player.setDirection (true);
 			}
 
