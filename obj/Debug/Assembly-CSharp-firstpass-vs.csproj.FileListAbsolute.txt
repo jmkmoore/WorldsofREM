@@ -1,0 +1,12 @@
+C:\Users\Josh\Documents\GitHub\TienJam\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Josh\Documents\GitHub\TienJam\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Josh\Documents\GitHub\TienJam\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Josh\Documents\GitHub\TienJam\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Josh\Documents\GitHub\TienJam\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Josh\Documents\GitHub\TienJam\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Josh\Documents\GitHub\TienJam\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Josh\Documents\GitHub\TienJam\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Josh\Documents\GitHub\TienJam\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Josh\Documents\GitHub\TienJam\obj\Debug\Assembly-CSharp-firstpass-vs.csprojResolveAssemblyReference.cache
+C:\Users\Josh\Documents\GitHub\TienJam\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Josh\Documents\GitHub\TienJam\obj\Debug\Assembly-CSharp-firstpass.pdb

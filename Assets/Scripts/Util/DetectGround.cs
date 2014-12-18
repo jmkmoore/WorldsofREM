@@ -4,15 +4,10 @@ using System.Collections;
 public class DetectGround : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other){
-		transform.parent.GetComponent<Player>().SetGrounded(true);
-        if (transform.parent.GetComponent<Player>().GetGrounded() && other.collider2D.gameObject.layer == LayerMask.NameToLayer("OnewayPass"))
-        {
-            Physics.IgnoreLayerCollision(9, 8, false);
-        }
-        else
-        {
-            Physics.IgnoreLayerCollision(9, 8, true);
-        }
+        Debug.Log("Ground Collision");
+        transform.parent.GetComponent<Player>().SetGrounded(true);
+        Physics2D.IgnoreLayerCollision(9, 8, false);
+
 	}
 	void OnTriggerStay2D(Collider2D other){
 		transform.parent.GetComponent<Player>().SetGrounded(true);        

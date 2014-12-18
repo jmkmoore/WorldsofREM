@@ -18,7 +18,7 @@ public class InputManager : MonoBehaviour
 		public bool AttackButton = false;
 		public bool DashButton = false;
 	private Rigidbody2D thisRigidbody;
-	private Transform thisTransform;
+	//private Transform thisTransform;
 	private float runSpeed;
 	public LayerMask layer;
     public Vector2 velocity;
@@ -34,7 +34,7 @@ public class InputManager : MonoBehaviour
 					player = go.GetComponent<Player> ();
 				}
 			thisRigidbody = player.rigidbody2D;
-			thisTransform = player.transform;
+			//thisTransform = player.transform;
 			runSpeed = PropertyManager.getInstance ().RunSpeed;
 		}
 
@@ -49,16 +49,12 @@ public class InputManager : MonoBehaviour
 
 		if (player.IsAlive) {
 			if (LeftButton) {
-				//player.rigidbody.velocity = new Vector2 ((float)(-10 * PropertyManager.getInstance ().RunSpeed), player.rigidbody.velocity.y);
-				Vector3 movementDirection = Vector3.left * runSpeed;
-				thisRigidbody.MovePosition (thisTransform.position + (movementDirection*Time.deltaTime));
+				Vector2 movementDirection = Vector2.right * -1 * runSpeed;
+                thisRigidbody.MovePosition(thisRigidbody.position + (movementDirection * Time.deltaTime));
 				player.setDirection (false);
-                //velocity = rigidbody2D.velocity;
 			} else if (RightButton) {
-				//player.rigidbody.velocity = new Vector2 ((float)(10 * PropertyManager.getInstance ().RunSpeed), player.rigidbody.velocity.y);
-				Vector3 movementDirection = Vector3.right * runSpeed;
-				thisRigidbody.MovePosition(thisTransform.position + (movementDirection*Time.deltaTime));
-                //velocity = .velocity;
+				Vector2 movementDirection = Vector2.right * runSpeed;
+                thisRigidbody.MovePosition(thisRigidbody.position + (movementDirection * Time.deltaTime));
 				player.setDirection (true);
 			}
 
