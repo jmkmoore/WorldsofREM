@@ -33,7 +33,7 @@ public class InputManager : MonoBehaviour
 				if (go != null)
 					player = go.GetComponent<Player> ();
 				}
-			thisRigidbody = player.rigidbody2D;
+			//thisRigidbody = player.rigidbody2D;
 			//thisTransform = player.transform;
 			runSpeed = PropertyManager.getInstance ().RunSpeed;
 		}
