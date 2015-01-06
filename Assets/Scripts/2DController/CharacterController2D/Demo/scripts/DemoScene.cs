@@ -19,7 +19,8 @@ public class DemoScene : MonoBehaviour
 	private RaycastHit2D _lastControllerColliderHit;
 	private Vector3 _velocity;
 
-
+    private bool left = false;
+    private bool right = true;
 
 
 	void Awake()
@@ -75,6 +76,8 @@ public class DemoScene : MonoBehaviour
 			normalizedHorizontalSpeed = 1;
 			if( transform.localScale.x < 0f )
 				transform.localScale = new Vector3( -transform.localScale.x, transform.localScale.y, transform.localScale.z );
+            right = true;
+            left = false;
 
 			if( _controller.isGrounded )
 				_animator.Play( Animator.StringToHash( "Run" ) );
@@ -87,6 +90,9 @@ public class DemoScene : MonoBehaviour
 
 			if( _controller.isGrounded )
 				_animator.Play( Animator.StringToHash( "Run" ) );
+
+            right = false;
+            left = true;
 		}
 		else
 		{
@@ -96,6 +102,13 @@ public class DemoScene : MonoBehaviour
 				_animator.Play( Animator.StringToHash( "Idle" ) );
 		}
 
+        if (Input.GetKey(KeyCode.E))
+        {
+            if(right)
+                normalizedHorizontalSpeed = 10;
+            if(left)
+                normalizedHorizontalSpeed = -10;
+        }
 
 		// we can only jump whilst grounded
 		if( _controller.isGrounded && Input.GetKeyDown( KeyCode.UpArrow ) )
@@ -103,6 +116,7 @@ public class DemoScene : MonoBehaviour
 			_velocity.y = Mathf.Sqrt( 2f * jumpHeight * -gravity );
 			_animator.Play( Animator.StringToHash( "Jump" ) );
 		}
+
 
 
 		// apply horizontal speed smoothing it
