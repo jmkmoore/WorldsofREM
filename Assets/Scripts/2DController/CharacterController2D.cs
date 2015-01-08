@@ -27,6 +27,10 @@ public class CharacterController2D : MonoBehaviour
 		public bool movingDownSlope;
 		public float slopeAngle;
 
+        public float ButtonDelay;
+		float lastJump = 0;
+		float lastUse = 0;
+
 
 		public bool hasCollision()
 		{
