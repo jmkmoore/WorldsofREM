@@ -10,6 +10,7 @@ public class DemoScene : MonoBehaviour
 	public float groundDamping = 20f; // how fast do we change direction? higher means faster
 	public float inAirDamping = 5f;
 	public float jumpHeight = 3f;
+    public float dashBoost = 15f;
 
 	[HideInInspector]
 	private float normalizedHorizontalSpeed = 0;
@@ -21,6 +22,11 @@ public class DemoScene : MonoBehaviour
 
     private bool left = false;
     private bool right = true;
+
+    public float ButtonDelay;
+    float lastJump = 0;
+    float lastUse = 0;
+    private bool isDashing = false;
 
 
 	void Awake()
@@ -65,6 +71,7 @@ public class DemoScene : MonoBehaviour
 	// the Update loop contains a very simple example of moving the character around and controlling the animation
 	void Update()
 	{
+
 		// grab our current _velocity to use as a base for all calculations
 		_velocity = _controller.velocity;
 
@@ -102,12 +109,15 @@ public class DemoScene : MonoBehaviour
 				_animator.Play( Animator.StringToHash( "Idle" ) );
 		}
 
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            if(right)
-                normalizedHorizontalSpeed = 10;
-            if(left)
-                normalizedHorizontalSpeed = -10;
+            if (left)
+            {
+                normalizedHorizontalSpeed = -1;
+            }
+            else
+                normalizedHorizontalSpeed = 1;
+            isDashing = true;
         }
 
 		// we can only jump whilst grounded
@@ -121,12 +131,22 @@ public class DemoScene : MonoBehaviour
 
 		// apply horizontal speed smoothing it
 		var smoothedMovementFactor = _controller.isGrounded ? groundDamping : inAirDamping; // how fast do we change direction?
-		_velocity.x = Mathf.Lerp( _velocity.x, normalizedHorizontalSpeed * runSpeed, Time.deltaTime * smoothedMovementFactor );
 
 		// apply gravity before moving
-		_velocity.y += gravity * Time.deltaTime;
+        if (!isDashing)
+        {
+            _velocity.x = Mathf.Lerp(_velocity.x, normalizedHorizontalSpeed * runSpeed, Time.deltaTime * smoothedMovementFactor);
 
-		_controller.move( _velocity * Time.deltaTime );
+            _velocity.y += gravity * Time.deltaTime;
+
+            _controller.move(_velocity * Time.deltaTime);
+        }
+        else
+        {
+            _velocity.x = Mathf.Lerp(_velocity.x, normalizedHorizontalSpeed * runSpeed * dashBoost, Time.deltaTime * groundDamping);
+            _controller.move(_velocity * Time.deltaTime);
+            isDashing = false;
+        }
 	}
 
 }
