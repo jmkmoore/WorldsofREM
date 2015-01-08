@@ -23,5 +23,10 @@ public class PlayerHealth : MonoBehaviour {
 						currentHealth = maxHealth;
 				if(currentHealth < 1)
 						currentHealth = 0;
+
+
+		TienGUI.getInstance().LifeBar = ((float)currentHealth / (float)maxHealth);
 		}
+		
+
 	}
