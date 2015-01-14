@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\Managers\InputManager.cs" />
      <Compile Include="Assets\Scripts\Managers\LevelLoader.cs" />
      <Compile Include="Assets\Scripts\Managers\PropertyManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\TienGUI.cs" />
      <Compile Include="Assets\Scripts\Objects\Projectile.cs" />
      <Compile Include="Assets\Scripts\Player Classes\DefaultPlayer.cs" />
      <Compile Include="Assets\Scripts\Player Classes\PlayerAttack.cs" />
