@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\Abstract\Static.cs" />
      <Compile Include="Assets\Scripts\Abstract\TienEntity.cs" />
      <Compile Include="Assets\Scripts\Enemy Classes\DefaultEnemy.cs" />
+     <Compile Include="Assets\Scripts\Enemy Classes\Doll_Scripts\DollMovement.cs" />
      <Compile Include="Assets\Scripts\Enemy Classes\EnemyAI.cs" />
      <Compile Include="Assets\Scripts\Enemy Classes\EnemyAttack.cs" />
      <Compile Include="Assets\Scripts\Enemy Classes\EnemyHealth.cs" />

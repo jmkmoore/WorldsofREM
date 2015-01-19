@@ -8,10 +8,25 @@ public class EnemyAI : MonoBehaviour {
 	public int maxDistance;
 	public int minDistance;
 
+    // movement config
+    public float gravity = -25f;
+    public float runSpeed = 8f;
+    public float groundDamping = 20f; // how fast do we change direction? higher means faster
+    public float inAirDamping = 5f;
+    public float jumpHeight = 3f;
+
+    private Animator animator;
+
 	private Transform myTransform;
+    private Vector3 _velocity;
+
+
 
 	void Awake(){
 		myTransform = transform;
+
+        animator = GetComponent<Animator>();
+
 	}
 
 	// Use this for initialization
@@ -25,21 +40,9 @@ public class EnemyAI : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-//		Debug.DrawLine (target.transform.position, myTransform.position, Color.red);
+        
 
-		//Look at target
-		if (Vector2.Distance (target.position, myTransform.position) < maxDistance) {
-						myTransform.rotation = Quaternion.Slerp (myTransform.rotation, Quaternion.LookRotation (target.position - myTransform.position), rotationSpeed * Time.deltaTime);
 
-						if (Vector2.Distance (target.position, myTransform.position) > minDistance) {
-								//Move towards target
-							if(target.position.x < myTransform.position.x){
-								myTransform.position += Vector3.left * 4 * moveSpeed * Time.deltaTime;
-							}
-							if(target.position.x > myTransform.position.x){
-								myTransform.position += Vector3.right * 4 * moveSpeed * Time.deltaTime;
-						}
-				}
-		} 
+
 	}
 }
