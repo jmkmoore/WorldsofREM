@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: 82699179835cc574bb8db799f2930658
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ASSET_SHEET_0
+    21300002: ASSET_SHEET_1
+    21300004: ASSET_SHEET_2
+    21300006: ASSET_SHEET_3
+    21300008: ASSET_SHEET_5
+    21300010: ASSET_SHEET_6
+    21300012: ASSET_SHEET_7
+    21300014: ASSET_SHEET_8
+    21300016: ASSET_SHEET_9
+    21300018: ASSET_SHEET_10
+    21300020: ASSET_SHEET_11
+    21300022: ASSET_SHEET_15
+    21300024: ASSET_SHEET_16
+    21300026: ASSET_SHEET_17
+    21300028: ASSET_SHEET_18
+    21300030: ASSET_SHEET_20
+    21300032: ASSET_SHEET_21
+    21300034: ASSET_SHEET_23
+    21300036: ASSET_SHEET_24
+    21300038: ASSET_SHEET_25
+    21300040: ASSET_SHEET_21
+    21300042: ASSET_SHEET_21
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ASSET_SHEET_0
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 3559
+        width: 1553
+        height: 1188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_1
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 3551
+        width: 1886
+        height: 1114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_2
+      rect:
+        serializedVersion: 2
+        x: 4745
+        y: 3559
+        width: 268
+        height: 1131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_3
+      rect:
+        serializedVersion: 2
+        x: 5452
+        y: 3583
+        width: 553
+        height: 1172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_5
+      rect:
+        serializedVersion: 2
+        x: 6103
+        y: 3583
+        width: 228
+        height: 1172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_6
+      rect:
+        serializedVersion: 2
+        x: 6428
+        y: 3583
+        width: 545
+        height: 1172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_7
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 3315
+        width: 537
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_8
+      rect:
+        serializedVersion: 2
+        x: 7225
+        y: 3225
+        width: 756
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_9
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 2257
+        width: 850
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_10
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 2251
+        width: 724
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_11
+      rect:
+        serializedVersion: 2
+        x: 5290
+        y: 2249
+        width: 488
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_15
+      rect:
+        serializedVersion: 2
+        x: 6607
+        y: 2257
+        width: 309
+        height: 741
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_16
+      rect:
+        serializedVersion: 2
+        x: 7063
+        y: 2241
+        width: 138
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_17
+      rect:
+        serializedVersion: 2
+        x: 7339
+        y: 2257
+        width: 98
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_18
+      rect:
+        serializedVersion: 2
+        x: 7510
+        y: 2290
+        width: 105
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_20
+      rect:
+        serializedVersion: 2
+        x: 7713
+        y: 2257
+        width: 220
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_21
+      rect:
+        serializedVersion: 2
+        x: 4851
+        y: 2242
+        width: 414
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_23
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 2257
+        width: 406
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_24
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 2257
+        width: 122
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_25
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 2257
+        width: 374
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_21
+      rect:
+        serializedVersion: 2
+        x: 5807
+        y: 2249
+        width: 689
+        height: 542
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ASSET_SHEET_21
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1116
+        width: 2686
+        height: 551
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 08c70807e99066241bba596c5de49041
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: VINE_SHEET_2_0
+    21300002: VINE_SHEET_2_1
+    21300004: VINE_SHEET_2_3
+    21300006: VINE_SHEET_2_4
+    21300008: VINE_SHEET_2_5
+    21300010: VINE_SHEET_2_6
+    21300012: VINE_SHEET_2_7
+    21300014: VINE_SHEET_2_8
+    21300016: VINE_SHEET_2_9
+    21300018: VINE_SHEET_2_10
+    21300020: VINE_SHEET_2_11
+    21300022: VINE_SHEET_2_12
+    21300024: VINE_SHEET_2_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: VINE_SHEET_2_0
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 5860
+        width: 3032
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: VINE_SHEET_2_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 5337
+        width: 2955
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: VINE_SHEET_2_3
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 4929
+        width: 2684
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: VINE_SHEET_2_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 4147
+        width: 2903
+        height: 647
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: VINE_SHEET_2_5
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 3475
+        width: 2321
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: VINE_SHEET_2_6
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 2615
+        width: 2334
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: VINE_SHEET_2_7
+      rect:
+        serializedVersion: 2
+        x: 2822
+        y: 2861
+        width: 246
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: VINE_SHEET_2_8
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 2841
+        width: 187
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: VINE_SHEET_2_9
+      rect:
+        serializedVersion: 2
+        x: 3799
+        y: 992
+        width: 407
+        height: 2108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: VINE_SHEET_2_10
+      rect:
+        serializedVersion: 2
+        x: 4613
+        y: 107
+        width: 1254
+        height: 3271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: VINE_SHEET_2_11
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1917
+        width: 2321
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: VINE_SHEET_2_12
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 882
+        width: 963
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: VINE_SHEET_2_12
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 3394
+        width: 2601
+        height: 3157
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
