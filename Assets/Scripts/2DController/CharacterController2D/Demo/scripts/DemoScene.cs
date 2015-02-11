@@ -11,6 +11,8 @@ public class DemoScene : MonoBehaviour
 	public float inAirDamping = 5f;
 	public float jumpHeight = 3f;
     public float dashBoost = 15f;
+    private int dashCount = 0;
+    private int dashMax = 2;
 
 	[HideInInspector]
 	private float normalizedHorizontalSpeed = 0;
@@ -75,8 +77,15 @@ public class DemoScene : MonoBehaviour
 		// grab our current _velocity to use as a base for all calculations
 		_velocity = _controller.velocity;
 
-		if( _controller.isGrounded )
-			_velocity.y = 0;
+        if (_controller.isGrounded)
+        {
+            _velocity.y = 0;
+            if (dashCount > 0)
+            {
+                dashCount = 0;
+            }
+            
+        }
 
 		if( Input.GetKey( KeyCode.RightArrow ) )
 		{
@@ -86,9 +95,9 @@ public class DemoScene : MonoBehaviour
             right = true;
             left = false;
 
-			if( _controller.isGrounded )
-				_animator.Play( Animator.StringToHash( "Run" ) );
-		}
+            if (!_controller.isGrounded)
+                normalizedHorizontalSpeed = .8f;
+        }
 		else if( Input.GetKey( KeyCode.LeftArrow ) )
 		{
 			normalizedHorizontalSpeed = -1;
@@ -100,6 +109,8 @@ public class DemoScene : MonoBehaviour
 
             right = false;
             left = true;
+            if (!_controller.isGrounded)
+                normalizedHorizontalSpeed = -.8f;
 		}
 		else
 		{
@@ -111,13 +122,17 @@ public class DemoScene : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (left)
+            if (dashCount < dashMax)
             {
-                normalizedHorizontalSpeed = -1;
+                if (left)
+                {
+                    normalizedHorizontalSpeed = -1;
+                }
+                else
+                    normalizedHorizontalSpeed = 1;
+                isDashing = true;
+                dashCount++;
             }
-            else
-                normalizedHorizontalSpeed = 1;
-            isDashing = true;
         }
 
 		// we can only jump whilst grounded

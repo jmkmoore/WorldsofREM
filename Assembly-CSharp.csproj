@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\Abstract\Static.cs" />
      <Compile Include="Assets\Scripts\Abstract\TienEntity.cs" />
      <Compile Include="Assets\Scripts\Enemy Classes\DefaultEnemy.cs" />
+     <Compile Include="Assets\Scripts\Enemy Classes\Doll_Scripts\DiveTrigger.cs" />
      <Compile Include="Assets\Scripts\Enemy Classes\Doll_Scripts\DollMovement.cs" />
      <Compile Include="Assets\Scripts\Enemy Classes\EnemyAI.cs" />
      <Compile Include="Assets\Scripts\Enemy Classes\EnemyAttack.cs" />
@@ -75,7 +76,7 @@
      <Compile Include="Assets\Scripts\Util\SmoothCamera2D.cs" />
      <Compile Include="Assets\Scripts\Util\Targetting.cs" />
      <None Include="Assets\Resources\Levels\XML\_Level 1 refinished.xml" />
-     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Resources\Levels\XML\TestMap.xml" />
      <None Include="Assets\Resources\Levels\TMX\Level 1 refinished.xml" />
      <None Include="Assets\Resources\Levels\XML\Level 1 refinished.xml" />

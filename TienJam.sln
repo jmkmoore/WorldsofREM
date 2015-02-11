@@ -7,6 +7,8 @@ Project("{7D905CCF-E90A-12F0-5CF2-11688AD2041A}") = "TienJam", "Assembly-CSharp.
 EndProject
 Project("{7D905CCF-E90A-12F0-5CF2-11688AD2041A}") = "TienJam", "Assembly-UnityScript-firstpass.unityproj", "{F5B2F1BF-1F72-EEDB-0FBC-B39F3EA1A0F6}"
 EndProject
+Project("{7D905CCF-E90A-12F0-5CF2-11688AD2041A}") = "TienJam", "Assembly-UnityScript.unityproj", "{C283034D-F0D2-FA8A-4C4D-CD271DA68030}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,11 +27,15 @@ Global
 		{F5B2F1BF-1F72-EEDB-0FBC-B39F3EA1A0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5B2F1BF-1F72-EEDB-0FBC-B39F3EA1A0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5B2F1BF-1F72-EEDB-0FBC-B39F3EA1A0F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C283034D-F0D2-FA8A-4C4D-CD271DA68030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C283034D-F0D2-FA8A-4C4D-CD271DA68030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C283034D-F0D2-FA8A-4C4D-CD271DA68030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C283034D-F0D2-FA8A-4C4D-CD271DA68030}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																																																																																																																																										GlobalSection(MonoDevelopProperties) = preSolution
+																																																																																																																																																																																						GlobalSection(MonoDevelopProperties) = preSolution
 =======
 <<<<<<< HEAD
 																																																																														GlobalSection(MonoDevelopProperties) = preSolution

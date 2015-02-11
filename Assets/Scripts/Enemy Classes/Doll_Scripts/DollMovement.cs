@@ -18,6 +18,9 @@ public class DollMovement : MonoBehaviour {
     private bool left = true;
     private bool right = false;
 
+    public bool inRange = false;
+    private int direction = 1;
+
     private Transform previousTransform;
 
     void Awake()
@@ -58,32 +61,49 @@ public class DollMovement : MonoBehaviour {
     #endregion
 	
 	// Update is called once per frame
-	void Update () {
-        //previousTransform = transform;
-        _velocity = _controller.velocity;
-        if (left)
+    void FixedUpdate()
+    {
+
+        if (!inRange)
         {
-            normalizedHorizontalSpeed = -1;
-            if (transform.localScale.x > 0f)
-                transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+            //previousTransform = transform;
+            _velocity = _controller.velocity;
+            if (left)
+            {
+                normalizedHorizontalSpeed = -1;
+                if (transform.localScale.x > 0f)
+                    transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+            }
+            else
+            {
+                if (transform.localScale.x < 0f)
+                    transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+                normalizedHorizontalSpeed = 1;
+            }
+            _animator.Play(Animator.StringToHash("Walk"));
+            var smoothedMovementFactor = _controller.isGrounded ? groundDamping : inAirDamping;
+            _velocity.x = Mathf.Lerp(_velocity.x, normalizedHorizontalSpeed * runSpeed, Time.deltaTime);
+
+            //if (previousTransform.Equals(transform))
+            //{
+            //    left = !left;
+            //    right = !right;
+            //}
         }
         else
         {
-            if (transform.localScale.x < 0f)
-                transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
-            normalizedHorizontalSpeed = 1;
+            _animator.StopPlayback();
+            _animator.Play(Animator.StringToHash("Trip"));
         }
-        _animator.Play(Animator.StringToHash("Walk"));
-        var smoothedMovementFactor = _controller.isGrounded ? groundDamping : inAirDamping; // how fast do we change direction?
-        _velocity.x = Mathf.Lerp(_velocity.x, normalizedHorizontalSpeed * runSpeed, Time.deltaTime);
         _velocity.y += gravity * Time.deltaTime;
-
         _controller.move(_velocity * Time.deltaTime);
-        //if (previousTransform.Equals(transform))
-        //{
-        //    left = !left;
-        //    right = !right;
-        //}
-	}
+
+    }
+
+    public void updateAttack(bool doAttack)
+    {
+        Debug.Log("Attack update called");
+        inRange = doAttack;
+    }
 
 }
