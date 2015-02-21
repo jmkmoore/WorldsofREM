@@ -21,7 +21,12 @@ public class DollMovement : MonoBehaviour {
     public bool inRange = false;
     private int direction = 1;
 
+    public float attackCooldown = 4f;
+    private float attackTimer = 0f;
+
     private Transform previousTransform;
+
+    private GameObject attackChild;
 
     void Awake()
     {
@@ -49,12 +54,22 @@ public class DollMovement : MonoBehaviour {
 
     void onTriggerEnterEvent(Collider2D col)
     {
-        Debug.Log("onTriggerEnterEvent: " + col.gameObject.name);
+        if (col.name.Equals("TienHitBox"))
+            updateAttack(true);
+        if (col.name.Equals("Wall"))
+        {
+            updateDirection();
+        }
+        Debug.Log(gameObject.name + "onTriggerEnterEvent: " + col.gameObject.name);
     }
 
 
     void onTriggerExitEvent(Collider2D col)
     {
+        if (col.name.Equals("TienHitBox"))
+        {
+            updateAttack(false);
+        }
         Debug.Log("onTriggerExitEvent: " + col.gameObject.name);
     }
 
@@ -63,9 +78,15 @@ public class DollMovement : MonoBehaviour {
 	// Update is called once per frame
     void FixedUpdate()
     {
-
-        if (!inRange)
+        if (attackTimer > 0) 
+            attackTimer -= Time.deltaTime;
+        if (attackTimer < 0)
         {
+            attackTimer = 0;
+        }
+        if (!inRange && attackTimer < 3f)
+        {
+            updateAttackColliders(false);
             //previousTransform = transform;
             _velocity = _controller.velocity;
             if (left)
@@ -92,8 +113,15 @@ public class DollMovement : MonoBehaviour {
         }
         else
         {
-            _animator.StopPlayback();
-            _animator.Play(Animator.StringToHash("Trip"));
+            if (attackTimer == 0)
+            {
+                updateAttackColliders(true);
+                attackTimer = attackCooldown;
+                _animator.StopPlayback();
+                _animator.Play(Animator.StringToHash("Trip"));
+                _velocity.x = 0;
+            }
+
         }
         _velocity.y += gravity * Time.deltaTime;
         _controller.move(_velocity * Time.deltaTime);
@@ -104,6 +132,28 @@ public class DollMovement : MonoBehaviour {
     {
         Debug.Log("Attack update called");
         inRange = doAttack;
+    }
+
+    void updateDirection()
+    {
+        left = !left;
+        right = !right;
+    }
+
+    void updateAttackColliders(bool attacking)
+    {
+        if (attacking)
+        {
+            gameObject.layer = LayerMask.NameToLayer("Empty");
+            transform.Find("DiveActiveBox").gameObject.SetActive(attacking);
+            transform.Find("HeadDiveHurtBox").gameObject.SetActive(attacking);
+        }
+        else
+        {
+            gameObject.layer = LayerMask.NameToLayer("Enemy");
+            transform.Find("DiveActiveBox").gameObject.SetActive(attacking);
+            transform.Find("HeadDiveHurtBox").gameObject.SetActive(attacking);
+        }
     }
 
 }

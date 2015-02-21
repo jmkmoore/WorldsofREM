@@ -1,0 +1,156 @@
+Initialize engine version: 4.6.0f3 (30840d631a27)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.4465]
+    Renderer: NVIDIA GeForce GTX 780
+    Vendor:   NVIDIA
+    VRAM:     2994 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Josh\Documents\GitHub\TienJam\BradBuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Josh\Documents\GitHub\TienJam\BradBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Josh\Documents\GitHub\TienJam\BradBuild_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Josh\Documents\GitHub\TienJam\BradBuild_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Josh\Documents\GitHub\TienJam\BradBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Josh\Documents\GitHub\TienJam\BradBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Josh\Documents\GitHub\TienJam\BradBuild_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Josh\Documents\GitHub\TienJam\BradBuild_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Josh\Documents\GitHub\TienJam\BradBuild_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Josh\Documents\GitHub\TienJam\BradBuild_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Josh\Documents\GitHub\TienJam\BradBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Josh\Documents\GitHub\TienJam\BradBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.060 seconds
+desktop: 1920x1080 60Hz; virtual: 5200x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\Josh\Documents\GitHub\TienJam\BradBuild_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Josh\Documents\GitHub\TienJam\BradBuild_Data\Managed\System.dll (this message is harmless)
+Profiler is only supported with Pro License
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Profiler/ProfilerConnection.cpp Line: 218)
+
+DollObjectonTriggerEnterEvent: Wall
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DollMovement:onTriggerEnterEvent(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\Enemy Classes\Doll_Scripts\DollMovement.cs:63)
+CharacterController2D:OnTriggerEnter2D(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\2DController\CharacterController2D.cs:209)
+ 
+(Filename: C Line: 0)
+
+onTriggerExitEvent: Wall
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DollMovement:onTriggerExitEvent(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\Enemy Classes\Doll_Scripts\DollMovement.cs:73)
+CharacterController2D:OnTriggerExit2D(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\2DController\CharacterController2D.cs:223)
+ 
+(Filename: C Line: 0)
+
+onTriggerEnterEvent: Dive_Trigger
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DemoScene:onTriggerEnterEvent(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\2DController\CharacterController2D\Demo\scripts\DemoScene.cs:61)
+CharacterController2D:OnTriggerEnter2D(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\2DController\CharacterController2D.cs:209)
+ 
+(Filename: C Line: 0)
+
+Attack update called
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DollMovement:updateAttack(Boolean) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\Enemy Classes\Doll_Scripts\DollMovement.cs:133)
+DollMovement:onTriggerEnterEvent(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\Enemy Classes\Doll_Scripts\DollMovement.cs:58)
+CharacterController2D:OnTriggerEnter2D(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\2DController\CharacterController2D.cs:209)
+ 
+(Filename: C Line: 0)
+
+DollObjectonTriggerEnterEvent: TienHitBox
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DollMovement:onTriggerEnterEvent(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\Enemy Classes\Doll_Scripts\DollMovement.cs:63)
+CharacterController2D:OnTriggerEnter2D(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\2DController\CharacterController2D.cs:209)
+ 
+(Filename: C Line: 0)
+
+DollObjectonTriggerEnterEvent: GameObject
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DollMovement:onTriggerEnterEvent(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\Enemy Classes\Doll_Scripts\DollMovement.cs:63)
+CharacterController2D:OnTriggerEnter2D(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\2DController\CharacterController2D.cs:209)
+ 
+(Filename: C Line: 0)
+
+Attack update called
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DollMovement:updateAttack(Boolean) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\Enemy Classes\Doll_Scripts\DollMovement.cs:133)
+DollMovement:onTriggerEnterEvent(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\Enemy Classes\Doll_Scripts\DollMovement.cs:58)
+CharacterController2D:OnTriggerEnter2D(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\2DController\CharacterController2D.cs:209)
+ 
+(Filename: C Line: 0)
+
+DollObjectonTriggerEnterEvent: TienHitBox
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DollMovement:onTriggerEnterEvent(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\Enemy Classes\Doll_Scripts\DollMovement.cs:63)
+CharacterController2D:OnTriggerEnter2D(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\2DController\CharacterController2D.cs:209)
+ 
+(Filename: C Line: 0)
+
+onTriggerEnterEvent: HeadDiveHurtBox
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DemoScene:onTriggerEnterEvent(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\2DController\CharacterController2D\Demo\scripts\DemoScene.cs:61)
+CharacterController2D:OnTriggerEnter2D(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\2DController\CharacterController2D.cs:209)
+ 
+(Filename: C Line: 0)
+
+onTriggerExitEvent: Dive_Trigger
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DemoScene:onTriggerExitEvent(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\2DController\CharacterController2D\Demo\scripts\DemoScene.cs:67)
+CharacterController2D:OnTriggerExit2D(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\2DController\CharacterController2D.cs:223)
+ 
+(Filename: C Line: 0)
+
+Attack update called
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DollMovement:updateAttack(Boolean) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\Enemy Classes\Doll_Scripts\DollMovement.cs:133)
+DollMovement:onTriggerExitEvent(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\Enemy Classes\Doll_Scripts\DollMovement.cs:71)
+CharacterController2D:OnTriggerExit2D(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\2DController\CharacterController2D.cs:223)
+ 
+(Filename: C Line: 0)
+
+onTriggerExitEvent: TienHitBox
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DollMovement:onTriggerExitEvent(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\Enemy Classes\Doll_Scripts\DollMovement.cs:73)
+CharacterController2D:OnTriggerExit2D(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\2DController\CharacterController2D.cs:223)
+ 
+(Filename: C Line: 0)
+
+Attack update called
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DollMovement:updateAttack(Boolean) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\Enemy Classes\Doll_Scripts\DollMovement.cs:133)
+DollMovement:onTriggerExitEvent(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\Enemy Classes\Doll_Scripts\DollMovement.cs:71)
+CharacterController2D:OnTriggerExit2D(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\2DController\CharacterController2D.cs:223)
+ 
+(Filename: C Line: 0)
+
+onTriggerExitEvent: TienHitBox
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DollMovement:onTriggerExitEvent(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\Enemy Classes\Doll_Scripts\DollMovement.cs:73)
+CharacterController2D:OnTriggerExit2D(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\2DController\CharacterController2D.cs:223)
+ 
+(Filename: C Line: 0)
+
+onTriggerExitEvent: HeadDiveHurtBox
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DemoScene:onTriggerExitEvent(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\2DController\CharacterController2D\Demo\scripts\DemoScene.cs:67)
+CharacterController2D:OnTriggerExit2D(Collider2D) (at C:\Users\Josh\Documents\GitHub\TienJam\Assets\Scripts\2DController\CharacterController2D.cs:223)
+ 
+(Filename: C Line: 0)
+
+Waiting for finish

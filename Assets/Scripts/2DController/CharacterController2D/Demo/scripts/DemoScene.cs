@@ -96,7 +96,7 @@ public class DemoScene : MonoBehaviour
             left = false;
 
             if (!_controller.isGrounded)
-                normalizedHorizontalSpeed = .8f;
+                normalizedHorizontalSpeed = .75f;
         }
 		else if( Input.GetKey( KeyCode.LeftArrow ) )
 		{
@@ -110,7 +110,7 @@ public class DemoScene : MonoBehaviour
             right = false;
             left = true;
             if (!_controller.isGrounded)
-                normalizedHorizontalSpeed = -.8f;
+                normalizedHorizontalSpeed = -.75f;
 		}
 		else
 		{
