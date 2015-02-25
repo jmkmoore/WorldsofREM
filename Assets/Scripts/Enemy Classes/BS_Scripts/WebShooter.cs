@@ -17,11 +17,12 @@ public class WebShooter : MonoBehaviour {
     private Vector3 _velocity;
 
     public GameObject webBulletPrefab;
+    public Transform bulletSpawnPoint;
 
     #region On Start
     // Use this for initialization
 	void Start () {
-	
+        webBulletPrefab = GameObject.Find("WebBullet");
 	}
 
     void Awake()
@@ -79,6 +80,7 @@ public class WebShooter : MonoBehaviour {
 	void Update () {
         _velocity = _controller.velocity;
 
+         
         if (shotTimer > 0)
         {
             shotTimer -= Time.deltaTime;
@@ -90,10 +92,7 @@ public class WebShooter : MonoBehaviour {
         
         if (shotTimer == 0)
         {
-            _animator.Play(Animator.StringToHash("Web_Shot"));
-            shotTimer = shotCooldown;
-
-            Instantiate(webBulletPrefab, webBulletPrefab.transform.position, webBulletPrefab.transform.rotation);
+            shootWeb();
         }
         _velocity.x = 0f;
         _velocity.y += gravity * Time.deltaTime;
@@ -103,4 +102,13 @@ public class WebShooter : MonoBehaviour {
 
 	
 	}
+
+    void shootWeb()
+    {
+        _animator.Play(Animator.StringToHash("Web_Shot"));
+        shotTimer = shotCooldown;
+
+        GameObject bulletClone = (GameObject)Instantiate(webBulletPrefab, webBulletPrefab.transform.position, webBulletPrefab.transform.rotation);
+
+    }
 }

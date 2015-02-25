@@ -1,0 +1,1237 @@
+fileFormatVersion: 2
+guid: ec8a50a247e9771428fba7245d2ad02f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Asset_cv_arrow01
+    100002: BigSnake_Base
+    100004: BigSnake_bn_base01
+    100006: BigSnake_bn_head01
+    100008: BigSnake_bn_largevine_base01
+    100010: BigSnake_bn_largevine_base01 1
+    100012: BigSnake_bn_largevine_curve01
+    100014: BigSnake_bn_largevine_curve01 1
+    100016: BigSnake_bn_largevine_curve01 2
+    100018: BigSnake_bn_largevine_end01
+    100020: BigSnake_bn_largevine_nearend01
+    100022: BigSnake_bn_largevine_twist_three01
+    100024: BigSnake_bn_largevine_twist_three02
+    100026: BigSnake_bn_largevine_twist_three03
+    100028: BigSnake_bn_largevine_twist_three04
+    100030: BigSnake_bn_largevine_twist_two01
+    100032: BigSnake_bn_largevine_twist_two02
+    100034: BigSnake_bn_largevine_twist_two03
+    100036: BigSnake_bn_largevine_twist_two04
+    100038: BigSnake_bn_leavesloc01
+    100040: BigSnake_bn_lowerjaw_end01
+    100042: BigSnake_bn_lowerjaw_start01
+    100044: Bigsnake_bn_midspike01
+    100046: BigSnake_bn_neck01
+    100048: BigSnake_bn_rib01
+    100050: BigSnake_bn_smallvine01
+    100052: BigSnake_bn_smallvine02
+    100054: BigSnake_bn_smallvine03
+    100056: Bigsnake_bn_socktween01
+    100058: BigSnake_bn_upperjaw_end01
+    100060: BigSnake_bn_upperjaw_start01
+    100062: BigSnake_bn_vinesband01
+    100064: BigSnake_Body
+    100066: BigSnake_body_sgrp01
+    100068: BigSnake_cv_Aimbox
+    100070: BigSnake_cv_base01
+    100072: BigSnake_cv_base02
+    100074: BigSnake_cv_base03
+    100076: BigSnake_cv_base04
+    100078: BigSnake_cv_base05
+    100080: BigSnake_cv_base06
+    100082: BigSnake_cv_base07
+    100084: BigSnake_cv_box_origin01
+    100086: BigSnake_cv_box_origin_pivotchange02
+    100088: BigSnake_cv_box_origin_pivotchange04
+    100090: BigSnake_cv_head_ctrl01
+    100092: BigSnake_cv_lowerjaw01
+    100094: BigSnake_cv_tongue_basebox01
+    100096: BigSnake_cv_tongue_endbox01
+    100098: BigSnake_cv_upperjaw01
+    100100: BigSnake_sgrp_Base
+    100102: BigSnake_sgrp_Leaves
+    100104: BigSnake_sgrp_longvine01
+    100106: BigSnake_sgrp_Tongue
+    100108: BigSnake_Tongue
+    100110: BigSnake_Tongue_bn_base01
+    100112: BigSnake_Tongue_bn_Center01
+    100114: BigSnake_Tongue_bn_End01
+    100116: cluster10Handle
+    100118: cluster11Handle
+    100120: cluster12Handle
+    100122: cluster13Handle
+    100124: cluster1Handle
+    100126: cluster2Handle
+    100128: cluster3Handle
+    100130: cluster4Handle
+    100132: cluster5Handle
+    100134: cluster6Handle
+    100136: cluster7Handle
+    100138: cluster8Handle
+    100140: cluster9Handle
+    100142: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip_1_grp_SmallSnake_mouth01
+    100144: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip_1_grp_SmallSnake_mouth02
+    100146: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1___UNKNOWN_REF_NODE_fosterParent1
+    100148: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1___UNKNOWN_REF_NODE_fosterParent2
+    100150: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Base
+    100152: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Base 1
+    100154: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_base01
+    100156: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_base01
+      1
+    100158: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_head01
+    100160: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_head01
+      1
+    100162: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_base01
+    100164: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_base01
+      1
+    100166: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_base01
+      2
+    100168: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_base01
+      3
+    100170: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_curve01
+    100172: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_curve01
+      1
+    100174: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_curve01
+      2
+    100176: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_curve01
+      3
+    100178: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_curve01
+      4
+    100180: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_curve01
+      5
+    100182: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_end01
+    100184: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_end01
+      1
+    100186: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_nearend01
+    100188: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_nearend01
+      1
+    100190: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_three01
+    100192: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_three01
+      1
+    100194: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_three02
+    100196: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_three02
+      1
+    100198: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_three03
+    100200: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_three03
+      1
+    100202: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_three04
+    100204: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_three04
+      1
+    100206: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_two01
+    100208: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_two01
+      1
+    100210: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_two02
+    100212: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_two02
+      1
+    100214: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_two03
+    100216: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_two03
+      1
+    100218: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_two04
+    100220: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_two04
+      1
+    100222: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_leavesloc01
+    100224: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_leavesloc01
+      1
+    100226: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_lowerjaw_end01
+    100228: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_lowerjaw_end01
+      1
+    100230: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_lowerjaw_start01
+    100232: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_lowerjaw_start01
+      1
+    100234: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Bigsnake_bn_midspike01
+    100236: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Bigsnake_bn_midspike01
+      1
+    100238: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_neck01
+    100240: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_neck01
+      1
+    100242: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_rib01
+    100244: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_rib01
+      1
+    100246: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_smallvine01
+    100248: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_smallvine01
+      1
+    100250: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_smallvine02
+    100252: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_smallvine02
+      1
+    100254: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_smallvine03
+    100256: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_smallvine03
+      1
+    100258: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Bigsnake_bn_socktween01
+    100260: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Bigsnake_bn_socktween01
+      1
+    100262: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_upperjaw_end01
+    100264: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_upperjaw_end01
+      1
+    100266: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_upperjaw_start01
+    100268: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_upperjaw_start01
+      1
+    100270: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_vinesband01
+    100272: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_vinesband01
+      1
+    100274: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Body
+    100276: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Body 1
+    100278: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_body_sgrp01
+    100280: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_body_sgrp01
+      1
+    100282: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_Aimbox1
+    100284: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_Aimbox1
+      1
+    100286: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_Aimbox2
+    100288: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_Aimbox2
+      1
+    100290: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_Aimbox3
+    100292: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_Aimbox3
+      1
+    100294: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_Aimbox4
+    100296: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_Aimbox4
+      1
+    100298: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_Aimbox5
+    100300: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_Aimbox5
+      1
+    100302: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base01
+    100304: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base01
+      1
+    100306: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base02
+    100308: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base02
+      1
+    100310: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base03
+    100312: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base03
+      1
+    100314: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base04
+    100316: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base04
+      1
+    100318: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base05
+    100320: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base05
+      1
+    100322: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base06
+    100324: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base06
+      1
+    100326: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base07
+    100328: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base07
+      1
+    100330: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange010
+    100332: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange010
+      1
+    100334: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange011
+    100336: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange011
+      1
+    100338: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange05
+    100340: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange05
+      1
+    100342: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange06
+    100344: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange06
+      1
+    100346: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange07
+    100348: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange07
+      1
+    100350: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange08
+    100352: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange08
+      1
+    100354: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange09
+    100356: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange09
+      1
+    100358: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_head_ctrl01
+    100360: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_head_ctrl01
+      1
+    100362: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_lowerjaw01
+    100364: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_lowerjaw01
+      1
+    100366: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_tongue_basebox01
+    100368: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_tongue_basebox01
+      1
+    100370: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_tongue_endbox01
+    100372: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_tongue_endbox01
+      1
+    100374: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_upperjaw01
+    100376: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_upperjaw01
+      1
+    100378: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_sgrp_Base
+    100380: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_sgrp_Base
+      1
+    100382: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_sgrp_Leaves
+    100384: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_sgrp_Leaves
+      1
+    100386: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_sgrp_longvine01
+    100388: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_sgrp_longvine01
+      1
+    100390: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_sgrp_Tongue
+    100392: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_sgrp_Tongue
+      1
+    100394: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Tongue
+    100396: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Tongue 1
+    100398: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Tongue_bn_base01
+    100400: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Tongue_bn_base01
+      1
+    100402: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Tongue_bn_Center01
+    100404: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Tongue_bn_Center01
+      1
+    100406: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Tongue_bn_End01
+    100408: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Tongue_bn_End01
+      1
+    100410: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_arrow_locators
+    100412: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_arrow_locators
+      1
+    100414: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_ASSET_ADJUSTMENT01
+    100416: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_ASSET_ADJUSTMENT02
+    100418: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_BigSnake
+    100420: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_BigSnake 1
+    100422: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_BigSnake 2
+    100424: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_BigSnake 3
+    100426: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_BigSnake01
+    100428: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_BigSnake02
+    100430: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_bigsnake_leafsRigs01
+    100432: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_bigsnake_leafsRigs01
+      1
+    100434: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_Bigsnake_Rig
+    100436: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_Bigsnake_Rig
+      1
+    100438: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_BigSnake_tongue
+    100440: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_BigSnake_tongue
+      1
+    100442: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_Smallsnake01
+    100444: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_Smallsnake02
+    100446: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_SmallSnakes
+    100448: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_SmallSnakes1
+    100450: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_Snakecontrols01
+    100452: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_Snakecontrols01
+      1
+    100454: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_square
+    100456: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_square1
+    100458: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__ikHandle1
+    100460: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__ikHandle1 1
+    100462: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__ikHandle2
+    100464: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__ikHandle2 1
+    100466: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__imagePlane3
+    100468: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__imagePlane3 1
+    100470: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__joint1
+    100472: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__joint1 1
+    100474: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_five_bn_base01
+    100476: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_five_bn_base01
+      1
+    100478: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_five_bn_center01
+    100480: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_five_bn_center01
+      1
+    100482: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_five_bn_end01
+    100484: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_five_bn_end01
+      1
+    100486: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_four_bn_base01
+    100488: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_four_bn_base01
+      1
+    100490: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_four_bn_center01
+    100492: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_four_bn_center01
+      1
+    100494: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_four_bn_end01
+    100496: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_four_bn_end01
+      1
+    100498: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_one_bn_center01
+    100500: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_one_bn_center01
+      1
+    100502: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_one_bn_end01
+    100504: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_one_bn_end01
+      1
+    100506: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_one_bn_end01
+      2
+    100508: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_one_bn_end01
+      3
+    100510: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_three_bn_base01
+    100512: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_three_bn_base01
+      1
+    100514: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_three_bn_center01
+    100516: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_three_bn_center01
+      1
+    100518: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_three_bn_end01
+    100520: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_three_bn_end01
+      1
+    100522: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_two_bn_base01
+    100524: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_two_bn_base01
+      1
+    100526: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_two_bn_center01
+    100528: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_two_bn_center01
+      1
+    100530: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_two_bn_end01
+    100532: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_two_bn_end01
+      1
+    100534: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator1
+    100536: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator1 1
+    100538: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator10
+    100540: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator10 1
+    100542: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator11
+    100544: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator11 1
+    100546: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator12
+    100548: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator12 1
+    100550: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator13
+    100552: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator13 1
+    100554: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator14
+    100556: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator14 1
+    100558: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator15
+    100560: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator15 1
+    100562: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator16
+    100564: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator16 1
+    100566: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator17
+    100568: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator17 1
+    100570: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator18
+    100572: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator18 1
+    100574: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator19
+    100576: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator19 1
+    100578: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator3
+    100580: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator3 1
+    100582: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator4
+    100584: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator4 1
+    100586: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator5
+    100588: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator5 1
+    100590: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator6
+    100592: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator6 1
+    100594: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator7
+    100596: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator7 1
+    100598: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator8
+    100600: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator8 1
+    100602: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator9
+    100604: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator9 1
+    100606: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__sgrp_arrow
+    100608: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__sgrp_arrow 1
+    100610: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__sgrp_stuffIguess
+    100612: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__sgrp_stuffIguess
+      1
+    100614: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_01
+    100616: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_01 1
+    100618: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_011
+    100620: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_011 1
+    100622: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_012
+    100624: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_012 1
+    100626: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_012 2
+    100628: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_012 3
+    100630: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_013
+    100632: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_013 1
+    100634: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_014
+    100636: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_014 1
+    100638: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_02
+    100640: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_02 1
+    100642: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_03
+    100644: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_03 1
+    100646: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_04
+    100648: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_04 1
+    100650: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_05
+    100652: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_05 1
+    100654: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_06
+    100656: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_06 1
+    100658: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_07
+    100660: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_07 1
+    100662: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_08
+    100664: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_08 1
+    100666: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_09
+    100668: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_09 1
+    100670: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake1
+    100672: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake1 1
+    100674: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Smallsnake2
+    100676: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Smallsnake2 1
+    100678: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake3
+    100680: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake3 1
+    100682: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base01
+    100684: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base01
+      1
+    100686: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base02
+    100688: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base02
+      1
+    100690: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base03
+    100692: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base03
+      1
+    100694: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base04
+    100696: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base04
+      1
+    100698: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base05
+    100700: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base05
+      1
+    100702: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base06
+    100704: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base06
+      1
+    100706: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__square_locators
+    100708: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__square_locators 1
+    100710: Dream_Eater_Allsnakes_grp_SmallSnake_Bigmouth01
+    100712: Dream_Eater_Allsnakes_grp_SmallSnake_Bigmouth02
+    100714: Dream_Eater_Allsnakes_ikHandle1
+    100716: Dream_Eater_Allsnakes_ikHandle1 1
+    100718: Dream_Eater_Allsnakes_ikHandle2
+    100720: Dream_Eater_Allsnakes_ikHandle2 1
+    100722: Dream_Eater_Allsnakes_ikHandle3
+    100724: Dream_Eater_Allsnakes_ikHandle3 1
+    100726: Dream_Eater_Allsnakes_ikHandle4
+    100728: Dream_Eater_Allsnakes_ikHandle4 1
+    100730: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base01
+    100732: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base01 1
+    100734: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base02
+    100736: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base02 1
+    100738: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base03
+    100740: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base03 1
+    100742: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base03 2
+    100744: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base03 3
+    100746: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base04
+    100748: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base04 1
+    100750: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base05
+    100752: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base05 1
+    100754: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_jaw01
+    100756: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_jaw01 1
+    100758: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_Lowerjaw01
+    100760: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_Lowerjaw01 1
+    100762: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_Lowerjaw02
+    100764: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_Lowerjaw02 1
+    100766: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_Tongue01
+    100768: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_Tongue01 1
+    100770: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_Tongue02
+    100772: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_Tongue02 1
+    100774: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_upperjaw01
+    100776: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_upperjaw01 1
+    100778: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_upperjaw02
+    100780: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_upperjaw02 1
+    100782: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_base01
+    100784: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_base01 1
+    100786: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_base02
+    100788: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_base02 1
+    100790: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_base03
+    100792: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_base03 1
+    100794: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_Head01
+    100796: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_Head01 1
+    100798: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_lowerjaw_ctrl01
+    100800: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_lowerjaw_ctrl01 1
+    100802: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_lowerjaw_ctrl02
+    100804: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_lowerjaw_ctrl02 1
+    100806: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_neck01
+    100808: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_neck01 1
+    100810: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_neck02
+    100812: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_neck02 1
+    100814: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_Neck03
+    100816: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_Neck03 1
+    100818: Dream_Eater_Allsnakes_SmallSnake_bn_tongue_end01
+    100820: Dream_Eater_Allsnakes_SmallSnake_bn_tongue_end01 1
+    100822: Dream_Eater_Allsnakes_SmallSnake_mouth_cv_lowerjaw01
+    100824: Dream_Eater_Allsnakes_SmallSnake_mouth_cv_lowerjaw01 1
+    100826: Dream_Eater_Allsnakes_SmallSnake_mouth_cv_upperjaw01
+    100828: Dream_Eater_Allsnakes_SmallSnake_mouth_cv_upperjaw01 1
+    100830: //RootNode
+    100832: grp_arrow_locators
+    100834: grp_ASSET_ADJUSTMENT01
+    100836: grp_BigSnake
+    100838: grp_BigSnake 1
+    100840: grp_bigsnake_leafsRigs01
+    100842: grp_Bigsnake_Rig
+    100844: grp_BigSnake_tongue
+    100846: grp_SmallSnakes
+    100848: grp_Snakecontrols01
+    100850: grp_square
+    100852: ikHandle1
+    100854: ikHandle2
+    100856: Leaf_five_bn_base01
+    100858: Leaf_five_bn_center01
+    100860: Leaf_five_bn_end01
+    100862: Leaf_four_bn_base01
+    100864: Leaf_four_bn_center01
+    100866: Leaf_four_bn_end01
+    100868: Leaf_one_bn_center01
+    100870: Leaf_one_bn_end01
+    100872: Leaf_one_bn_end01 1
+    100874: Leaf_three_bn_base01
+    100876: Leaf_three_bn_center01
+    100878: Leaf_three_bn_end01
+    100880: Leaf_two_bn_base01
+    100882: Leaf_two_bn_center01
+    100884: Leaf_two_bn_end01
+    100886: locator1
+    100888: locator10
+    100890: locator11
+    100892: locator12
+    100894: locator13
+    100896: locator14
+    100898: locator15
+    100900: locator16
+    100902: locator17
+    100904: locator18
+    100906: locator19
+    100908: locator3
+    100910: locator4
+    100912: locator5
+    100914: locator6
+    100916: locator7
+    100918: locator8
+    100920: locator9
+    100922: sgrp_arrow
+    100924: sgrp_stuffIguess
+    100926: SmallSnake1
+    100928: Smallsnake2
+    100930: SmallSnake3
+    100932: square_clusters
+    100934: square_curve_curve1
+    100936: square_curve_curve2
+    100938: square_locators
+    400000: Asset_cv_arrow01
+    400002: BigSnake_Base
+    400004: BigSnake_bn_base01
+    400006: BigSnake_bn_head01
+    400008: BigSnake_bn_largevine_base01
+    400010: BigSnake_bn_largevine_base01 1
+    400012: BigSnake_bn_largevine_curve01
+    400014: BigSnake_bn_largevine_curve01 1
+    400016: BigSnake_bn_largevine_curve01 2
+    400018: BigSnake_bn_largevine_end01
+    400020: BigSnake_bn_largevine_nearend01
+    400022: BigSnake_bn_largevine_twist_three01
+    400024: BigSnake_bn_largevine_twist_three02
+    400026: BigSnake_bn_largevine_twist_three03
+    400028: BigSnake_bn_largevine_twist_three04
+    400030: BigSnake_bn_largevine_twist_two01
+    400032: BigSnake_bn_largevine_twist_two02
+    400034: BigSnake_bn_largevine_twist_two03
+    400036: BigSnake_bn_largevine_twist_two04
+    400038: BigSnake_bn_leavesloc01
+    400040: BigSnake_bn_lowerjaw_end01
+    400042: BigSnake_bn_lowerjaw_start01
+    400044: Bigsnake_bn_midspike01
+    400046: BigSnake_bn_neck01
+    400048: BigSnake_bn_rib01
+    400050: BigSnake_bn_smallvine01
+    400052: BigSnake_bn_smallvine02
+    400054: BigSnake_bn_smallvine03
+    400056: Bigsnake_bn_socktween01
+    400058: BigSnake_bn_upperjaw_end01
+    400060: BigSnake_bn_upperjaw_start01
+    400062: BigSnake_bn_vinesband01
+    400064: BigSnake_Body
+    400066: BigSnake_body_sgrp01
+    400068: BigSnake_cv_Aimbox
+    400070: BigSnake_cv_base01
+    400072: BigSnake_cv_base02
+    400074: BigSnake_cv_base03
+    400076: BigSnake_cv_base04
+    400078: BigSnake_cv_base05
+    400080: BigSnake_cv_base06
+    400082: BigSnake_cv_base07
+    400084: BigSnake_cv_box_origin01
+    400086: BigSnake_cv_box_origin_pivotchange02
+    400088: BigSnake_cv_box_origin_pivotchange04
+    400090: BigSnake_cv_head_ctrl01
+    400092: BigSnake_cv_lowerjaw01
+    400094: BigSnake_cv_tongue_basebox01
+    400096: BigSnake_cv_tongue_endbox01
+    400098: BigSnake_cv_upperjaw01
+    400100: BigSnake_sgrp_Base
+    400102: BigSnake_sgrp_Leaves
+    400104: BigSnake_sgrp_longvine01
+    400106: BigSnake_sgrp_Tongue
+    400108: BigSnake_Tongue
+    400110: BigSnake_Tongue_bn_base01
+    400112: BigSnake_Tongue_bn_Center01
+    400114: BigSnake_Tongue_bn_End01
+    400116: cluster10Handle
+    400118: cluster11Handle
+    400120: cluster12Handle
+    400122: cluster13Handle
+    400124: cluster1Handle
+    400126: cluster2Handle
+    400128: cluster3Handle
+    400130: cluster4Handle
+    400132: cluster5Handle
+    400134: cluster6Handle
+    400136: cluster7Handle
+    400138: cluster8Handle
+    400140: cluster9Handle
+    400142: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip_1_grp_SmallSnake_mouth01
+    400144: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip_1_grp_SmallSnake_mouth02
+    400146: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1___UNKNOWN_REF_NODE_fosterParent1
+    400148: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1___UNKNOWN_REF_NODE_fosterParent2
+    400150: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Base
+    400152: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Base 1
+    400154: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_base01
+    400156: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_base01
+      1
+    400158: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_head01
+    400160: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_head01
+      1
+    400162: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_base01
+    400164: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_base01
+      1
+    400166: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_base01
+      2
+    400168: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_base01
+      3
+    400170: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_curve01
+    400172: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_curve01
+      1
+    400174: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_curve01
+      2
+    400176: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_curve01
+      3
+    400178: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_curve01
+      4
+    400180: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_curve01
+      5
+    400182: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_end01
+    400184: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_end01
+      1
+    400186: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_nearend01
+    400188: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_nearend01
+      1
+    400190: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_three01
+    400192: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_three01
+      1
+    400194: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_three02
+    400196: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_three02
+      1
+    400198: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_three03
+    400200: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_three03
+      1
+    400202: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_three04
+    400204: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_three04
+      1
+    400206: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_two01
+    400208: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_two01
+      1
+    400210: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_two02
+    400212: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_two02
+      1
+    400214: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_two03
+    400216: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_two03
+      1
+    400218: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_two04
+    400220: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_largevine_twist_two04
+      1
+    400222: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_leavesloc01
+    400224: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_leavesloc01
+      1
+    400226: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_lowerjaw_end01
+    400228: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_lowerjaw_end01
+      1
+    400230: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_lowerjaw_start01
+    400232: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_lowerjaw_start01
+      1
+    400234: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Bigsnake_bn_midspike01
+    400236: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Bigsnake_bn_midspike01
+      1
+    400238: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_neck01
+    400240: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_neck01
+      1
+    400242: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_rib01
+    400244: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_rib01
+      1
+    400246: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_smallvine01
+    400248: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_smallvine01
+      1
+    400250: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_smallvine02
+    400252: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_smallvine02
+      1
+    400254: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_smallvine03
+    400256: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_smallvine03
+      1
+    400258: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Bigsnake_bn_socktween01
+    400260: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Bigsnake_bn_socktween01
+      1
+    400262: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_upperjaw_end01
+    400264: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_upperjaw_end01
+      1
+    400266: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_upperjaw_start01
+    400268: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_upperjaw_start01
+      1
+    400270: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_vinesband01
+    400272: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_bn_vinesband01
+      1
+    400274: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Body
+    400276: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Body 1
+    400278: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_body_sgrp01
+    400280: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_body_sgrp01
+      1
+    400282: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_Aimbox1
+    400284: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_Aimbox1
+      1
+    400286: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_Aimbox2
+    400288: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_Aimbox2
+      1
+    400290: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_Aimbox3
+    400292: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_Aimbox3
+      1
+    400294: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_Aimbox4
+    400296: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_Aimbox4
+      1
+    400298: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_Aimbox5
+    400300: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_Aimbox5
+      1
+    400302: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base01
+    400304: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base01
+      1
+    400306: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base02
+    400308: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base02
+      1
+    400310: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base03
+    400312: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base03
+      1
+    400314: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base04
+    400316: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base04
+      1
+    400318: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base05
+    400320: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base05
+      1
+    400322: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base06
+    400324: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base06
+      1
+    400326: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base07
+    400328: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_base07
+      1
+    400330: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange010
+    400332: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange010
+      1
+    400334: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange011
+    400336: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange011
+      1
+    400338: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange05
+    400340: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange05
+      1
+    400342: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange06
+    400344: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange06
+      1
+    400346: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange07
+    400348: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange07
+      1
+    400350: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange08
+    400352: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange08
+      1
+    400354: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange09
+    400356: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_box_origin_pivotchange09
+      1
+    400358: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_head_ctrl01
+    400360: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_head_ctrl01
+      1
+    400362: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_lowerjaw01
+    400364: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_lowerjaw01
+      1
+    400366: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_tongue_basebox01
+    400368: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_tongue_basebox01
+      1
+    400370: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_tongue_endbox01
+    400372: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_tongue_endbox01
+      1
+    400374: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_upperjaw01
+    400376: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_cv_upperjaw01
+      1
+    400378: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_sgrp_Base
+    400380: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_sgrp_Base
+      1
+    400382: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_sgrp_Leaves
+    400384: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_sgrp_Leaves
+      1
+    400386: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_sgrp_longvine01
+    400388: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_sgrp_longvine01
+      1
+    400390: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_sgrp_Tongue
+    400392: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_sgrp_Tongue
+      1
+    400394: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Tongue
+    400396: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Tongue 1
+    400398: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Tongue_bn_base01
+    400400: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Tongue_bn_base01
+      1
+    400402: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Tongue_bn_Center01
+    400404: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Tongue_bn_Center01
+      1
+    400406: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Tongue_bn_End01
+    400408: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Tongue_bn_End01
+      1
+    400410: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_arrow_locators
+    400412: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_arrow_locators
+      1
+    400414: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_ASSET_ADJUSTMENT01
+    400416: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_ASSET_ADJUSTMENT02
+    400418: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_BigSnake
+    400420: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_BigSnake 1
+    400422: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_BigSnake 2
+    400424: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_BigSnake 3
+    400426: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_BigSnake01
+    400428: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_BigSnake02
+    400430: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_bigsnake_leafsRigs01
+    400432: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_bigsnake_leafsRigs01
+      1
+    400434: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_Bigsnake_Rig
+    400436: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_Bigsnake_Rig
+      1
+    400438: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_BigSnake_tongue
+    400440: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_BigSnake_tongue
+      1
+    400442: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_Smallsnake01
+    400444: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_Smallsnake02
+    400446: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_SmallSnakes
+    400448: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_SmallSnakes1
+    400450: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_Snakecontrols01
+    400452: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_Snakecontrols01
+      1
+    400454: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_square
+    400456: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__grp_square1
+    400458: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__ikHandle1
+    400460: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__ikHandle1 1
+    400462: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__ikHandle2
+    400464: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__ikHandle2 1
+    400466: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__imagePlane3
+    400468: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__imagePlane3 1
+    400470: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__joint1
+    400472: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__joint1 1
+    400474: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_five_bn_base01
+    400476: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_five_bn_base01
+      1
+    400478: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_five_bn_center01
+    400480: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_five_bn_center01
+      1
+    400482: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_five_bn_end01
+    400484: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_five_bn_end01
+      1
+    400486: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_four_bn_base01
+    400488: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_four_bn_base01
+      1
+    400490: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_four_bn_center01
+    400492: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_four_bn_center01
+      1
+    400494: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_four_bn_end01
+    400496: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_four_bn_end01
+      1
+    400498: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_one_bn_center01
+    400500: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_one_bn_center01
+      1
+    400502: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_one_bn_end01
+    400504: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_one_bn_end01
+      1
+    400506: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_one_bn_end01
+      2
+    400508: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_one_bn_end01
+      3
+    400510: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_three_bn_base01
+    400512: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_three_bn_base01
+      1
+    400514: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_three_bn_center01
+    400516: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_three_bn_center01
+      1
+    400518: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_three_bn_end01
+    400520: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_three_bn_end01
+      1
+    400522: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_two_bn_base01
+    400524: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_two_bn_base01
+      1
+    400526: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_two_bn_center01
+    400528: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_two_bn_center01
+      1
+    400530: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_two_bn_end01
+    400532: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Leaf_two_bn_end01
+      1
+    400534: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator1
+    400536: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator1 1
+    400538: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator10
+    400540: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator10 1
+    400542: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator11
+    400544: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator11 1
+    400546: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator12
+    400548: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator12 1
+    400550: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator13
+    400552: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator13 1
+    400554: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator14
+    400556: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator14 1
+    400558: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator15
+    400560: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator15 1
+    400562: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator16
+    400564: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator16 1
+    400566: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator17
+    400568: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator17 1
+    400570: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator18
+    400572: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator18 1
+    400574: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator19
+    400576: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator19 1
+    400578: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator3
+    400580: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator3 1
+    400582: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator4
+    400584: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator4 1
+    400586: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator5
+    400588: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator5 1
+    400590: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator6
+    400592: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator6 1
+    400594: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator7
+    400596: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator7 1
+    400598: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator8
+    400600: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator8 1
+    400602: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator9
+    400604: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__locator9 1
+    400606: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__sgrp_arrow
+    400608: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__sgrp_arrow 1
+    400610: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__sgrp_stuffIguess
+    400612: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__sgrp_stuffIguess
+      1
+    400614: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_01
+    400616: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_01 1
+    400618: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_011
+    400620: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_011 1
+    400622: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_012
+    400624: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_012 1
+    400626: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_012 2
+    400628: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_012 3
+    400630: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_013
+    400632: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_013 1
+    400634: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_014
+    400636: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_014 1
+    400638: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_02
+    400640: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_02 1
+    400642: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_03
+    400644: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_03 1
+    400646: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_04
+    400648: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_04 1
+    400650: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_05
+    400652: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_05 1
+    400654: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_06
+    400656: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_06 1
+    400658: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_07
+    400660: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_07 1
+    400662: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_08
+    400664: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_08 1
+    400666: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_09
+    400668: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SM_09 1
+    400670: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake1
+    400672: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake1 1
+    400674: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Smallsnake2
+    400676: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Smallsnake2 1
+    400678: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake3
+    400680: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake3 1
+    400682: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base01
+    400684: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base01
+      1
+    400686: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base02
+    400688: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base02
+      1
+    400690: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base03
+    400692: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base03
+      1
+    400694: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base04
+    400696: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base04
+      1
+    400698: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base05
+    400700: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base05
+      1
+    400702: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base06
+    400704: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake_nomouth_bn_base06
+      1
+    400706: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__square_locators
+    400708: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__square_locators 1
+    400710: Dream_Eater_Allsnakes_grp_SmallSnake_Bigmouth01
+    400712: Dream_Eater_Allsnakes_grp_SmallSnake_Bigmouth02
+    400714: Dream_Eater_Allsnakes_ikHandle1
+    400716: Dream_Eater_Allsnakes_ikHandle1 1
+    400718: Dream_Eater_Allsnakes_ikHandle2
+    400720: Dream_Eater_Allsnakes_ikHandle2 1
+    400722: Dream_Eater_Allsnakes_ikHandle3
+    400724: Dream_Eater_Allsnakes_ikHandle3 1
+    400726: Dream_Eater_Allsnakes_ikHandle4
+    400728: Dream_Eater_Allsnakes_ikHandle4 1
+    400730: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base01
+    400732: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base01 1
+    400734: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base02
+    400736: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base02 1
+    400738: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base03
+    400740: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base03 1
+    400742: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base03 2
+    400744: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base03 3
+    400746: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base04
+    400748: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base04 1
+    400750: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base05
+    400752: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_base05 1
+    400754: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_jaw01
+    400756: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_jaw01 1
+    400758: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_Lowerjaw01
+    400760: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_Lowerjaw01 1
+    400762: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_Lowerjaw02
+    400764: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_Lowerjaw02 1
+    400766: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_Tongue01
+    400768: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_Tongue01 1
+    400770: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_Tongue02
+    400772: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_Tongue02 1
+    400774: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_upperjaw01
+    400776: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_upperjaw01 1
+    400778: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_upperjaw02
+    400780: Dream_Eater_Allsnakes_SmallSnake_Bigmouth_bn_upperjaw02 1
+    400782: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_base01
+    400784: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_base01 1
+    400786: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_base02
+    400788: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_base02 1
+    400790: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_base03
+    400792: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_base03 1
+    400794: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_Head01
+    400796: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_Head01 1
+    400798: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_lowerjaw_ctrl01
+    400800: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_lowerjaw_ctrl01 1
+    400802: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_lowerjaw_ctrl02
+    400804: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_lowerjaw_ctrl02 1
+    400806: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_neck01
+    400808: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_neck01 1
+    400810: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_neck02
+    400812: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_neck02 1
+    400814: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_Neck03
+    400816: Dream_Eater_Allsnakes_Smallsnake_bigmouth_cv_Neck03 1
+    400818: Dream_Eater_Allsnakes_SmallSnake_bn_tongue_end01
+    400820: Dream_Eater_Allsnakes_SmallSnake_bn_tongue_end01 1
+    400822: Dream_Eater_Allsnakes_SmallSnake_mouth_cv_lowerjaw01
+    400824: Dream_Eater_Allsnakes_SmallSnake_mouth_cv_lowerjaw01 1
+    400826: Dream_Eater_Allsnakes_SmallSnake_mouth_cv_upperjaw01
+    400828: Dream_Eater_Allsnakes_SmallSnake_mouth_cv_upperjaw01 1
+    400830: //RootNode
+    400832: grp_arrow_locators
+    400834: grp_ASSET_ADJUSTMENT01
+    400836: grp_BigSnake
+    400838: grp_BigSnake 1
+    400840: grp_bigsnake_leafsRigs01
+    400842: grp_Bigsnake_Rig
+    400844: grp_BigSnake_tongue
+    400846: grp_SmallSnakes
+    400848: grp_Snakecontrols01
+    400850: grp_square
+    400852: ikHandle1
+    400854: ikHandle2
+    400856: Leaf_five_bn_base01
+    400858: Leaf_five_bn_center01
+    400860: Leaf_five_bn_end01
+    400862: Leaf_four_bn_base01
+    400864: Leaf_four_bn_center01
+    400866: Leaf_four_bn_end01
+    400868: Leaf_one_bn_center01
+    400870: Leaf_one_bn_end01
+    400872: Leaf_one_bn_end01 1
+    400874: Leaf_three_bn_base01
+    400876: Leaf_three_bn_center01
+    400878: Leaf_three_bn_end01
+    400880: Leaf_two_bn_base01
+    400882: Leaf_two_bn_center01
+    400884: Leaf_two_bn_end01
+    400886: locator1
+    400888: locator10
+    400890: locator11
+    400892: locator12
+    400894: locator13
+    400896: locator14
+    400898: locator15
+    400900: locator16
+    400902: locator17
+    400904: locator18
+    400906: locator19
+    400908: locator3
+    400910: locator4
+    400912: locator5
+    400914: locator6
+    400916: locator7
+    400918: locator8
+    400920: locator9
+    400922: sgrp_arrow
+    400924: sgrp_stuffIguess
+    400926: SmallSnake1
+    400928: Smallsnake2
+    400930: SmallSnake3
+    400932: square_clusters
+    400934: square_curve_curve1
+    400936: square_curve_curve2
+    400938: square_locators
+    2300000: BigSnake_Base
+    2300002: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Base
+    2300004: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Base 1
+    2300006: SmallSnake1
+    2300008: Smallsnake2
+    2300010: SmallSnake3
+    3300000: BigSnake_Base
+    3300002: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Base
+    3300004: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Base 1
+    3300006: SmallSnake1
+    3300008: Smallsnake2
+    3300010: SmallSnake3
+    4300000: SmallSnake3
+    4300002: Smallsnake2
+    4300004: SmallSnake1
+    4300006: BigSnake_sgrp_Leaves
+    4300008: BigSnake_Base
+    4300010: BigSnake_Body
+    4300012: BigSnake_Tongue
+    4300014: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_sgrp_Leaves
+    4300016: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Base
+    4300018: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Body
+    4300020: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Tongue
+    4300022: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake1
+    4300024: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Smallsnake2
+    4300026: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake3
+    4300028: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_sgrp_Leaves
+    4300030: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Base
+    4300032: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Body
+    4300034: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Tongue
+    4300036: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake1
+    4300038: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Smallsnake2
+    4300040: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake3
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: BigSnake_Body
+    13700002: BigSnake_sgrp_Leaves
+    13700004: BigSnake_Tongue
+    13700006: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Body
+    13700008: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Body 1
+    13700010: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_sgrp_Leaves
+    13700012: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_sgrp_Leaves
+      1
+    13700014: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Tongue
+    13700016: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__BigSnake_Tongue
+      1
+    13700018: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake1
+    13700020: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake1 1
+    13700022: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Smallsnake2
+    13700024: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__Smallsnake2 1
+    13700026: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake3
+    13700028: Dream_Eater_Allsnakes_DreamEater_smallsnakes_wip__1__SmallSnake3 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

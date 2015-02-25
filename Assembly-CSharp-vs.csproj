@@ -61,6 +61,8 @@
      <Compile Include="Assets\Scripts\Enemy Classes\EnemyAI.cs" />
      <Compile Include="Assets\Scripts\Enemy Classes\EnemyAttack.cs" />
      <Compile Include="Assets\Scripts\Enemy Classes\EnemyHealth.cs" />
+     <Compile Include="Assets\Scripts\Enemy Classes\Raven\ProjectileRaven.cs" />
+     <Compile Include="Assets\Scripts\Enemy Classes\Raven\RavenController.cs" />
      <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
      <Compile Include="Assets\Scripts\Managers\InputManager.cs" />
      <Compile Include="Assets\Scripts\Managers\LevelLoader.cs" />
