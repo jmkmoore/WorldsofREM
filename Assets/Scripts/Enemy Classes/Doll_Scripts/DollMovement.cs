@@ -60,7 +60,6 @@ public class DollMovement : MonoBehaviour {
         {
             updateDirection();
         }
-        Debug.Log(gameObject.name + "onTriggerEnterEvent: " + col.gameObject.name);
     }
 
 
@@ -130,7 +129,6 @@ public class DollMovement : MonoBehaviour {
 
     public void updateAttack(bool doAttack)
     {
-        Debug.Log("Attack update called");
         inRange = doAttack;
     }
 

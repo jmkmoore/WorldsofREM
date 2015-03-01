@@ -3,48 +3,55 @@ using System.Collections;
 
 public class PlayerAttack : MonoBehaviour {
 	private int attackValue = 10;
-	private int superAttackValue = 20;
+	private int superAttackValue = 2;
 	public GameObject target;
+
 	public float attackTimer;
-	public float cooldown;
-	public double velocity;
-	public 
+    public float aliveTimer;
+    public float maxTime = .01f;
 	// Use this for initialization
 	void Start () {
 		attackTimer = 0;
-		cooldown = 3.0f;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (attackTimer > 0) 
-			attackTimer -= Time.deltaTime;
-		if(attackTimer < 0)
-			attackTimer = 0;
-
-		if (Input.GetKeyDown (KeyCode.X))
-				if (attackTimer == 0) {
-						Attack ();
-				}
+        if (aliveTimer > maxTime)
+        {
+            DestroyObject(gameObject);
+        }
+        aliveTimer += Time.deltaTime;
+		
 		}
 
-	void Attack(){
-		attackTimer = cooldown;
-		float distance = Vector3.Distance (target.transform.position, transform.position);
-		Vector3 dir = (target.transform.position - transform.position).normalized;
-		Debug.Log (distance);
-		float direction = Vector3.Dot (dir, transform.forward);
-		if (distance < 5.0f) {
-			if (direction > 0) {
-				EnemyHealth eh = (EnemyHealth)target.GetComponent("EnemyHealth");
-				PlayerMode pm  = (PlayerMode)gameObject.GetComponent ("PlayerMode");
-				if(pm.Equals("Melee")){
-					eh.adjustCurrentHealth(-superAttackValue);
-				}
-				else
-					eh.adjustCurrentHealth(-attackValue);
-				target.rigidbody.AddForce(Vector3.up * 100);
-				}
-			}
+	void Attack(GameObject target){
+        EnemyHealth eh = (EnemyHealth)target.GetComponent<EnemyHealth>();
+        eh.adjustCurrentHealth(-attackValue);
+        DestroyObject(gameObject);
 		}
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag.Equals("Enemy"))
+        {
+            Debug.Log("Hit Enemy: " + other.name + " " + gameObject.layer);
+            Attack(other.transform.parent.gameObject);
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D other)
+    {
+        Debug.Log("Trigger on " + other.name);
+        Attack(other.transform.parent.gameObject);
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        Debug.Log("Exit trigger");
+    }
+
+    public void setAttackDamage(int Damage)
+    {
+        attackValue = Damage;
+    }
 }

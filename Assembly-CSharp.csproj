@@ -68,13 +68,15 @@
      <Compile Include="Assets\Scripts\Managers\LevelLoader.cs" />
      <Compile Include="Assets\Scripts\Managers\PropertyManager.cs" />
      <Compile Include="Assets\Scripts\Managers\TienGUI.cs" />
-     <Compile Include="Assets\Scripts\Objects\Projectile.cs" />
+     <Compile Include="Assets\Scripts\Objects\Projectiles\NonNormalProjectile.cs" />
+     <Compile Include="Assets\Scripts\Objects\Projectiles\Projectile.cs" />
      <Compile Include="Assets\Scripts\Player Classes\DefaultPlayer.cs" />
      <Compile Include="Assets\Scripts\Player Classes\PlayerAttack.cs" />
      <Compile Include="Assets\Scripts\Player Classes\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Player Classes\PlayerMode.cs" />
      <Compile Include="Assets\Scripts\Util\DeathTile.cs" />
      <Compile Include="Assets\Scripts\Util\DetectGround.cs" />
+     <Compile Include="Assets\Scripts\Util\FallApart.cs" />
      <Compile Include="Assets\Scripts\Util\IgnoreCeilingCollision.cs" />
      <Compile Include="Assets\Scripts\Util\PassThroughPlat.cs" />
      <Compile Include="Assets\Scripts\Util\SmoothCamera2D.cs" />
@@ -87,12 +89,6 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{336626B0-8464-7FD0-A7F5-3CF9E9E0F92B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{F5B2F1BF-1F72-EEDB-0FBC-B39F3EA1A0F6}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

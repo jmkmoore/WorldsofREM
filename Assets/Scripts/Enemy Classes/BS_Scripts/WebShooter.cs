@@ -8,22 +8,24 @@ public class WebShooter : MonoBehaviour {
     public float groundDamping = 20f; // how fast do we change direction? higher means faster
     public float inAirDamping = 5f;
 
-    public float shotCooldown = 5f;
+    public float shotCooldown = 1.3f;
     public float shotTimer = 0f;
+    public float playTimer= 1.5f;
 
     private CharacterController2D _controller;
     private Animator _animator;
     private RaycastHit2D _lastControllerColliderHit;
     private Vector3 _velocity;
 
+    bool fired = false;
+
     public GameObject webBulletPrefab;
-    public Transform bulletSpawnPoint;
 
     #region On Start
     // Use this for initialization
 	void Start () {
-        webBulletPrefab = GameObject.Find("WebBullet");
-	}
+        
+    }
 
     void Awake()
     {
@@ -80,35 +82,43 @@ public class WebShooter : MonoBehaviour {
 	void Update () {
         _velocity = _controller.velocity;
 
-         
-        if (shotTimer > 0)
-        {
-            shotTimer -= Time.deltaTime;
-            if (shotTimer < 0)
-            {
-                shotTimer = 0;
-            }
-        }
-        
         if (shotTimer == 0)
         {
-            shootWeb();
+            _animator.StopPlayback();
+            _animator.Play(Animator.StringToHash("Web_Shot"));
         }
+         
+        if (shotTimer < playTimer)
+        {
+            shotTimer += Time.deltaTime;
+        }
+
+        if (shotTimer >= shotCooldown && fired == false)
+        {
+            fired = true;
+            shootWeb(transform.localScale.x);
+        }
+        
+        if (shotTimer >playTimer)
+        {
+            shotTimer = 0;
+            fired = false;
+            _animator.StopPlayback();
+            _animator.Play(Animator.StringToHash("Stand"));
+        }
+        
+
         _velocity.x = 0f;
-        _velocity.y += gravity * Time.deltaTime;
+        _velocity.y = 0f;
 
         _controller.move(_velocity * Time.deltaTime);
 
-
-	
 	}
 
-    void shootWeb()
+    public void shootWeb(float direction)
     {
-        _animator.Play(Animator.StringToHash("Web_Shot"));
-        shotTimer = shotCooldown;
-
-        GameObject bulletClone = (GameObject)Instantiate(webBulletPrefab, webBulletPrefab.transform.position, webBulletPrefab.transform.rotation);
-
+        Projectile web = (Projectile)webBulletPrefab.GetComponent("Projectile");
+        web.setDirection(direction);
+        Projectile bulletClone = (Projectile)Instantiate(web, new Vector3(transform.position.x + (2.5f * transform.localScale.x), transform.position.y + 1, transform.position.z), transform.rotation);
     }
 }

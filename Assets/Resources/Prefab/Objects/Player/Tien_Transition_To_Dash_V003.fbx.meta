@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 21ba6c4b265022946bef3104a8499138
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bag
+    100002: Char_C_1
+    100004: curve1
+    100006: Hairclip
+    100008: L_Strap
+    100010: Neckerchief
+    100012: R_Strap
+    100014: Text_C_1
+    100016: Tien
+    100018: Tien_bn_crest01
+    100020: Tien_bn_head01
+    100022: Tien_bn_l_Ankle01
+    100024: Tien_bn_l_ball01
+    100026: Tien_bn_l_ball01 1
+    100028: Tien_bn_l_hip01
+    100030: Tien_bn_l_knee01
+    100032: Tien_bn_l_toe
+    100034: Tien_bn_l_toe 1
+    100036: Tien_bn_neck01
+    100038: Tien_bn_neck_center01
+    100040: Tien_bn_pelvis01
+    100042: Tien_bn_r_Ankle01
+    100044: tien_bn_r_clav01
+    100046: tien_bn_r_clav02
+    100048: Tien_bn_r_elbow01
+    100050: Tien_bn_r_elbow01 1
+    100052: tien_bn_r_eye01
+    100054: tien_bn_r_eye02
+    100056: tien_bn_r_eye_point01
+    100058: tien_bn_r_eye_point02
+    100060: Tien_bn_r_hip01
+    100062: Tien_bn_r_knee01
+    100064: tien_bn_r_shoulder01
+    100066: tien_bn_r_shoulder01 1
+    100068: Tien_bn_r_wrist01
+    100070: Tien_bn_r_wrist01 1
+    100072: Tien_bn_spine_center01
+    100074: Tien_bn_spine_lower01
+    100076: Tien_bn_spine_top01
+    100078: Tien_l_ear_bn_01
+    100080: Tien_l_ear_bn_02
+    100082: Tien_l_ear_bn_03
+    100084: Tien_l_ear_bn_04
+    100086: Tien_l_ear_bn_end01
+    100088: Tien_r_bn_index_base01
+    100090: Tien_r_bn_index_base01 1
+    100092: Tien_r_bn_index_end01
+    100094: Tien_r_bn_index_end01 1
+    100096: Tien_r_bn_index_knuckle01
+    100098: Tien_r_bn_index_knuckle01 1
+    100100: Tien_r_bn_middle_base01
+    100102: Tien_r_bn_middle_base01 1
+    100104: Tien_r_bn_middle_end01
+    100106: Tien_r_bn_middle_end01 1
+    100108: Tien_r_bn_middle_knuckle01
+    100110: Tien_r_bn_middle_knuckle01 1
+    100112: Tien_r_bn_palm01
+    100114: Tien_r_bn_palm01 1
+    100116: Tien_r_bn_pinky_base01
+    100118: Tien_r_bn_pinky_base01 1
+    100120: Tien_r_bn_pinky_end01
+    100122: Tien_r_bn_pinky_end01 1
+    100124: Tien_r_bn_pinky_knuckle01
+    100126: Tien_r_bn_pinky_knuckle01 1
+    100128: Tien_r_bn_thumb_base01
+    100130: Tien_r_bn_thumb_base01 1
+    100132: Tien_r_bn_thumb_end01
+    100134: Tien_r_bn_thumb_end01 1
+    100136: Tien_r_bn_thumb_knuckle01
+    100138: Tien_r_bn_thumb_knuckle01 1
+    100140: Tien_r_ear_bn_01
+    100142: Tien_r_ear_bn_02
+    100144: Tien_r_ear_bn_03
+    100146: Tien_r_ear_bn_04
+    100148: Tien_r_ear_bn_end01
+    100150: //RootNode
+    100152: TienBody
+    400000: Bag
+    400002: Char_C_1
+    400004: curve1
+    400006: Hairclip
+    400008: L_Strap
+    400010: Neckerchief
+    400012: R_Strap
+    400014: Text_C_1
+    400016: Tien
+    400018: Tien_bn_crest01
+    400020: Tien_bn_head01
+    400022: Tien_bn_l_Ankle01
+    400024: Tien_bn_l_ball01
+    400026: Tien_bn_l_ball01 1
+    400028: Tien_bn_l_hip01
+    400030: Tien_bn_l_knee01
+    400032: Tien_bn_l_toe
+    400034: Tien_bn_l_toe 1
+    400036: Tien_bn_neck01
+    400038: Tien_bn_neck_center01
+    400040: Tien_bn_pelvis01
+    400042: Tien_bn_r_Ankle01
+    400044: tien_bn_r_clav01
+    400046: tien_bn_r_clav02
+    400048: Tien_bn_r_elbow01
+    400050: Tien_bn_r_elbow01 1
+    400052: tien_bn_r_eye01
+    400054: tien_bn_r_eye02
+    400056: tien_bn_r_eye_point01
+    400058: tien_bn_r_eye_point02
+    400060: Tien_bn_r_hip01
+    400062: Tien_bn_r_knee01
+    400064: tien_bn_r_shoulder01
+    400066: tien_bn_r_shoulder01 1
+    400068: Tien_bn_r_wrist01
+    400070: Tien_bn_r_wrist01 1
+    400072: Tien_bn_spine_center01
+    400074: Tien_bn_spine_lower01
+    400076: Tien_bn_spine_top01
+    400078: Tien_l_ear_bn_01
+    400080: Tien_l_ear_bn_02
+    400082: Tien_l_ear_bn_03
+    400084: Tien_l_ear_bn_04
+    400086: Tien_l_ear_bn_end01
+    400088: Tien_r_bn_index_base01
+    400090: Tien_r_bn_index_base01 1
+    400092: Tien_r_bn_index_end01
+    400094: Tien_r_bn_index_end01 1
+    400096: Tien_r_bn_index_knuckle01
+    400098: Tien_r_bn_index_knuckle01 1
+    400100: Tien_r_bn_middle_base01
+    400102: Tien_r_bn_middle_base01 1
+    400104: Tien_r_bn_middle_end01
+    400106: Tien_r_bn_middle_end01 1
+    400108: Tien_r_bn_middle_knuckle01
+    400110: Tien_r_bn_middle_knuckle01 1
+    400112: Tien_r_bn_palm01
+    400114: Tien_r_bn_palm01 1
+    400116: Tien_r_bn_pinky_base01
+    400118: Tien_r_bn_pinky_base01 1
+    400120: Tien_r_bn_pinky_end01
+    400122: Tien_r_bn_pinky_end01 1
+    400124: Tien_r_bn_pinky_knuckle01
+    400126: Tien_r_bn_pinky_knuckle01 1
+    400128: Tien_r_bn_thumb_base01
+    400130: Tien_r_bn_thumb_base01 1
+    400132: Tien_r_bn_thumb_end01
+    400134: Tien_r_bn_thumb_end01 1
+    400136: Tien_r_bn_thumb_knuckle01
+    400138: Tien_r_bn_thumb_knuckle01 1
+    400140: Tien_r_ear_bn_01
+    400142: Tien_r_ear_bn_02
+    400144: Tien_r_ear_bn_03
+    400146: Tien_r_ear_bn_04
+    400148: Tien_r_ear_bn_end01
+    400150: //RootNode
+    400152: TienBody
+    2300000: Bag
+    2300002: Hairclip
+    2300004: L_Strap
+    2300006: Neckerchief
+    2300008: R_Strap
+    3300000: Bag
+    3300002: Hairclip
+    3300004: L_Strap
+    3300006: Neckerchief
+    3300008: R_Strap
+    4300000: TienBody
+    4300002: Hairclip
+    4300004: R_Strap
+    4300006: L_Strap
+    4300008: Neckerchief
+    4300010: Bag
+    7400000: DashTransition
+    9500000: //RootNode
+    13700000: TienBody
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: DashTransition
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Text_C_1
+        weight: 1
+      - path: Text_C_1/Char_C_1
+        weight: 1
+      - path: Text_C_1/Char_C_1/curve1
+        weight: 1
+      - path: Tien
+        weight: 1
+      - path: Tien/TienBody
+        weight: 1
+      - path: Tien_bn_pelvis01
+        weight: 1
+      - path: Tien_bn_pelvis01/Bag
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_l_hip01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_l_hip01/Tien_bn_l_knee01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_l_hip01/Tien_bn_l_knee01/Tien_bn_l_Ankle01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_l_hip01/Tien_bn_l_knee01/Tien_bn_l_Ankle01/Tien_bn_l_ball01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_l_hip01/Tien_bn_l_knee01/Tien_bn_l_Ankle01/Tien_bn_l_ball01/Tien_bn_l_toe
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_r_hip01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_r_hip01/Tien_bn_r_knee01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_r_hip01/Tien_bn_r_knee01/Tien_bn_r_Ankle01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_r_hip01/Tien_bn_r_knee01/Tien_bn_r_Ankle01/Tien_bn_l_ball01
+          1
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_r_hip01/Tien_bn_r_knee01/Tien_bn_r_Ankle01/Tien_bn_l_ball01
+          1/Tien_bn_l_toe 1
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/Neckerchief
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/Tien_bn_neck01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/Tien_bn_neck01/Tien_bn_neck_center01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/Tien_bn_neck01/Tien_bn_neck_center01/Tien_bn_head01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/Tien_bn_neck01/Tien_bn_neck_center01/Tien_bn_head01/Hairclip
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/Tien_bn_neck01/Tien_bn_neck_center01/Tien_bn_head01/Tien_bn_crest01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/Tien_bn_neck01/Tien_bn_neck_center01/Tien_bn_head01/tien_bn_r_eye01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/Tien_bn_neck01/Tien_bn_neck_center01/Tien_bn_head01/tien_bn_r_eye01/tien_bn_r_eye_point01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/Tien_bn_neck01/Tien_bn_neck_center01/Tien_bn_head01/tien_bn_r_eye02
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/Tien_bn_neck01/Tien_bn_neck_center01/Tien_bn_head01/tien_bn_r_eye02/tien_bn_r_eye_point02
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/Tien_bn_neck01/Tien_bn_neck_center01/Tien_bn_head01/Tien_l_ear_bn_01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/Tien_bn_neck01/Tien_bn_neck_center01/Tien_bn_head01/Tien_l_ear_bn_01/Tien_l_ear_bn_02
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/Tien_bn_neck01/Tien_bn_neck_center01/Tien_bn_head01/Tien_l_ear_bn_01/Tien_l_ear_bn_02/Tien_l_ear_bn_03
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/Tien_bn_neck01/Tien_bn_neck_center01/Tien_bn_head01/Tien_l_ear_bn_01/Tien_l_ear_bn_02/Tien_l_ear_bn_03/Tien_l_ear_bn_04
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/Tien_bn_neck01/Tien_bn_neck_center01/Tien_bn_head01/Tien_l_ear_bn_01/Tien_l_ear_bn_02/Tien_l_ear_bn_03/Tien_l_ear_bn_04/Tien_l_ear_bn_end01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/Tien_bn_neck01/Tien_bn_neck_center01/Tien_bn_head01/Tien_r_ear_bn_01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/Tien_bn_neck01/Tien_bn_neck_center01/Tien_bn_head01/Tien_r_ear_bn_01/Tien_r_ear_bn_02
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/Tien_bn_neck01/Tien_bn_neck_center01/Tien_bn_head01/Tien_r_ear_bn_01/Tien_r_ear_bn_02/Tien_r_ear_bn_03
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/Tien_bn_neck01/Tien_bn_neck_center01/Tien_bn_head01/Tien_r_ear_bn_01/Tien_r_ear_bn_02/Tien_r_ear_bn_03/Tien_r_ear_bn_04
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/Tien_bn_neck01/Tien_bn_neck_center01/Tien_bn_head01/Tien_r_ear_bn_01/Tien_r_ear_bn_02/Tien_r_ear_bn_03/Tien_r_ear_bn_04/Tien_r_ear_bn_end01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav01/R_Strap
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav01/tien_bn_r_shoulder01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav01/tien_bn_r_shoulder01/Tien_bn_r_elbow01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav01/tien_bn_r_shoulder01/Tien_bn_r_elbow01/Tien_bn_r_wrist01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav01/tien_bn_r_shoulder01/Tien_bn_r_elbow01/Tien_bn_r_wrist01/Tien_r_bn_palm01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav01/tien_bn_r_shoulder01/Tien_bn_r_elbow01/Tien_bn_r_wrist01/Tien_r_bn_palm01/Tien_r_bn_index_base01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav01/tien_bn_r_shoulder01/Tien_bn_r_elbow01/Tien_bn_r_wrist01/Tien_r_bn_palm01/Tien_r_bn_index_base01/Tien_r_bn_index_knuckle01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav01/tien_bn_r_shoulder01/Tien_bn_r_elbow01/Tien_bn_r_wrist01/Tien_r_bn_palm01/Tien_r_bn_index_base01/Tien_r_bn_index_knuckle01/Tien_r_bn_index_end01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav01/tien_bn_r_shoulder01/Tien_bn_r_elbow01/Tien_bn_r_wrist01/Tien_r_bn_palm01/Tien_r_bn_middle_base01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav01/tien_bn_r_shoulder01/Tien_bn_r_elbow01/Tien_bn_r_wrist01/Tien_r_bn_palm01/Tien_r_bn_middle_base01/Tien_r_bn_middle_knuckle01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav01/tien_bn_r_shoulder01/Tien_bn_r_elbow01/Tien_bn_r_wrist01/Tien_r_bn_palm01/Tien_r_bn_middle_base01/Tien_r_bn_middle_knuckle01/Tien_r_bn_middle_end01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav01/tien_bn_r_shoulder01/Tien_bn_r_elbow01/Tien_bn_r_wrist01/Tien_r_bn_palm01/Tien_r_bn_pinky_base01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav01/tien_bn_r_shoulder01/Tien_bn_r_elbow01/Tien_bn_r_wrist01/Tien_r_bn_palm01/Tien_r_bn_pinky_base01/Tien_r_bn_pinky_knuckle01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav01/tien_bn_r_shoulder01/Tien_bn_r_elbow01/Tien_bn_r_wrist01/Tien_r_bn_palm01/Tien_r_bn_pinky_base01/Tien_r_bn_pinky_knuckle01/Tien_r_bn_pinky_end01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav01/tien_bn_r_shoulder01/Tien_bn_r_elbow01/Tien_bn_r_wrist01/Tien_r_bn_palm01/Tien_r_bn_thumb_base01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav01/tien_bn_r_shoulder01/Tien_bn_r_elbow01/Tien_bn_r_wrist01/Tien_r_bn_palm01/Tien_r_bn_thumb_base01/Tien_r_bn_thumb_knuckle01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav01/tien_bn_r_shoulder01/Tien_bn_r_elbow01/Tien_bn_r_wrist01/Tien_r_bn_palm01/Tien_r_bn_thumb_base01/Tien_r_bn_thumb_knuckle01/Tien_r_bn_thumb_end01
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav02
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav02/L_Strap
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav02/tien_bn_r_shoulder01
+          1
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav02/tien_bn_r_shoulder01
+          1/Tien_bn_r_elbow01 1
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav02/tien_bn_r_shoulder01
+          1/Tien_bn_r_elbow01 1/Tien_bn_r_wrist01 1
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav02/tien_bn_r_shoulder01
+          1/Tien_bn_r_elbow01 1/Tien_bn_r_wrist01 1/Tien_r_bn_palm01 1
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav02/tien_bn_r_shoulder01
+          1/Tien_bn_r_elbow01 1/Tien_bn_r_wrist01 1/Tien_r_bn_palm01 1/Tien_r_bn_index_base01
+          1
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav02/tien_bn_r_shoulder01
+          1/Tien_bn_r_elbow01 1/Tien_bn_r_wrist01 1/Tien_r_bn_palm01 1/Tien_r_bn_index_base01
+          1/Tien_r_bn_index_knuckle01 1
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav02/tien_bn_r_shoulder01
+          1/Tien_bn_r_elbow01 1/Tien_bn_r_wrist01 1/Tien_r_bn_palm01 1/Tien_r_bn_index_base01
+          1/Tien_r_bn_index_knuckle01 1/Tien_r_bn_index_end01 1
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav02/tien_bn_r_shoulder01
+          1/Tien_bn_r_elbow01 1/Tien_bn_r_wrist01 1/Tien_r_bn_palm01 1/Tien_r_bn_middle_base01
+          1
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav02/tien_bn_r_shoulder01
+          1/Tien_bn_r_elbow01 1/Tien_bn_r_wrist01 1/Tien_r_bn_palm01 1/Tien_r_bn_middle_base01
+          1/Tien_r_bn_middle_knuckle01 1
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav02/tien_bn_r_shoulder01
+          1/Tien_bn_r_elbow01 1/Tien_bn_r_wrist01 1/Tien_r_bn_palm01 1/Tien_r_bn_middle_base01
+          1/Tien_r_bn_middle_knuckle01 1/Tien_r_bn_middle_end01 1
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav02/tien_bn_r_shoulder01
+          1/Tien_bn_r_elbow01 1/Tien_bn_r_wrist01 1/Tien_r_bn_palm01 1/Tien_r_bn_pinky_base01
+          1
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav02/tien_bn_r_shoulder01
+          1/Tien_bn_r_elbow01 1/Tien_bn_r_wrist01 1/Tien_r_bn_palm01 1/Tien_r_bn_pinky_base01
+          1/Tien_r_bn_pinky_knuckle01 1
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav02/tien_bn_r_shoulder01
+          1/Tien_bn_r_elbow01 1/Tien_bn_r_wrist01 1/Tien_r_bn_palm01 1/Tien_r_bn_pinky_base01
+          1/Tien_r_bn_pinky_knuckle01 1/Tien_r_bn_pinky_end01 1
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav02/tien_bn_r_shoulder01
+          1/Tien_bn_r_elbow01 1/Tien_bn_r_wrist01 1/Tien_r_bn_palm01 1/Tien_r_bn_thumb_base01
+          1
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav02/tien_bn_r_shoulder01
+          1/Tien_bn_r_elbow01 1/Tien_bn_r_wrist01 1/Tien_r_bn_palm01 1/Tien_r_bn_thumb_base01
+          1/Tien_r_bn_thumb_knuckle01 1
+        weight: 1
+      - path: Tien_bn_pelvis01/Tien_bn_spine_lower01/Tien_bn_spine_center01/Tien_bn_spine_top01/tien_bn_r_clav02/tien_bn_r_shoulder01
+          1/Tien_bn_r_elbow01 1/Tien_bn_r_wrist01 1/Tien_r_bn_palm01 1/Tien_r_bn_thumb_base01
+          1/Tien_r_bn_thumb_knuckle01 1/Tien_r_bn_thumb_end01 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2.5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

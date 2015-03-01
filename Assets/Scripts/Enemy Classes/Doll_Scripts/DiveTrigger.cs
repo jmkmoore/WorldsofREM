@@ -16,7 +16,6 @@ public class DiveTrigger : MonoBehaviour {
     {
         if (other.name.Equals("TienHitBox"))
         {
-            Debug.Log("asdfoasdfasdf");
             myParent.GetComponent<DollMovement>().updateAttack(true);
         }
     }

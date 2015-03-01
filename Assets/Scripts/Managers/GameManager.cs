@@ -4,6 +4,8 @@ using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour {
 
+    public GameObject Tien;
+
 	public enum GameState {
 		Menu,
 		Paused,
@@ -52,7 +54,12 @@ public class GameManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+        
+        if (Tien.GetComponent<PlayerHealth>().currentHealth <= 0)
+        {
+            Application.LoadLevel(Application.loadedLevel);
+        }
+
 	}
 
 

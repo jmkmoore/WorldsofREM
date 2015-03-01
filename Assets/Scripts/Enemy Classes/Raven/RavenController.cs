@@ -90,8 +90,8 @@ public class RavenController : MonoBehaviour {
             if (moveTimer < 0.5f)
                 _velocity.y = -Mathf.Sqrt(1f * -gravity);
             else
-                _velocity.y = -Mathf.Sqrt(5f * -gravity);
-            _velocity.x = 2 * flightSpeed * transform.localScale.x;
+                _velocity.y = -Mathf.Sqrt(8f * -gravity);
+            _velocity.x = 3 * flightSpeed * transform.localScale.x;
             _velocity.y -= gravity * Time.deltaTime;
             _animator.Play(Animator.StringToHash("Dive"));
         }

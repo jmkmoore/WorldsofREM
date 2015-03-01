@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: a6899b480dfdebd479b3c4d543ed6fbf
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CATRigBody
+    100004: CATRigBodyHead
+    100006: CATRigBodyHeadMouthL
+    100008: CATRigBodyHeadMouthL1
+    100010: CATRigBodyHeadMouthR
+    100012: CATRigBodyHeadMouthR1
+    100014: CATRigLLeg11
+    100016: CATRigLLeg12
+    100018: CATRigLLeg1LAnkle1
+    100020: CATRigLLeg1UpVectorNode
+    100022: CATRigLLeg21
+    100024: CATRigLLeg22
+    100026: CATRigLLeg2LAnkle2
+    100028: CATRigLLeg2UpVectorNode
+    100030: CATRigLLeg31
+    100032: CATRigLLeg32
+    100034: CATRigLLeg3LAnkle3
+    100036: CATRigLLeg3UpVectorNode
+    100038: CATRigLLeg41
+    100040: CATRigLLeg42
+    100042: CATRigLLeg4LAnkle4
+    100044: CATRigLLeg4UpVectorNode
+    100046: CATRigRLeg1
+    100048: CATRigRLeg11
+    100050: CATRigRLeg12
+    100052: CATRigRLeg1RAnkle1
+    100054: CATRigRLeg1UpVectorNode
+    100056: CATRigRLeg2
+    100058: CATRigRLeg21
+    100060: CATRigRLeg22
+    100062: CATRigRLeg2RAnkle2
+    100064: CATRigRLeg2UpVectorNode
+    100066: CATRigRLeg31
+    100068: CATRigRLeg32
+    100070: CATRigRLeg3RAnkle3
+    100072: CATRigRLeg3UpVectorNode
+    100074: CATRigRLegLAnkle4
+    100076: CATRigRLegUpVectorNode
+    100078: Nat_Spider2_polySurface1
+    400000: //RootNode
+    400002: CATRigBody
+    400004: CATRigBodyHead
+    400006: CATRigBodyHeadMouthL
+    400008: CATRigBodyHeadMouthL1
+    400010: CATRigBodyHeadMouthR
+    400012: CATRigBodyHeadMouthR1
+    400014: CATRigLLeg11
+    400016: CATRigLLeg12
+    400018: CATRigLLeg1LAnkle1
+    400020: CATRigLLeg1UpVectorNode
+    400022: CATRigLLeg21
+    400024: CATRigLLeg22
+    400026: CATRigLLeg2LAnkle2
+    400028: CATRigLLeg2UpVectorNode
+    400030: CATRigLLeg31
+    400032: CATRigLLeg32
+    400034: CATRigLLeg3LAnkle3
+    400036: CATRigLLeg3UpVectorNode
+    400038: CATRigLLeg41
+    400040: CATRigLLeg42
+    400042: CATRigLLeg4LAnkle4
+    400044: CATRigLLeg4UpVectorNode
+    400046: CATRigRLeg1
+    400048: CATRigRLeg11
+    400050: CATRigRLeg12
+    400052: CATRigRLeg1RAnkle1
+    400054: CATRigRLeg1UpVectorNode
+    400056: CATRigRLeg2
+    400058: CATRigRLeg21
+    400060: CATRigRLeg22
+    400062: CATRigRLeg2RAnkle2
+    400064: CATRigRLeg2UpVectorNode
+    400066: CATRigRLeg31
+    400068: CATRigRLeg32
+    400070: CATRigRLeg3RAnkle3
+    400072: CATRigRLeg3UpVectorNode
+    400074: CATRigRLegLAnkle4
+    400076: CATRigRLegUpVectorNode
+    400078: Nat_Spider2_polySurface1
+    4300000: Nat_Spider2_polySurface1
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Nat_Spider2_polySurface1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .680066884
+        functionName: shootWeb()
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CATRigBody
+        weight: 1
+      - path: CATRigBody/CATRigBodyHead
+        weight: 1
+      - path: CATRigBody/CATRigBodyHead/CATRigBodyHeadMouthL
+        weight: 1
+      - path: CATRigBody/CATRigBodyHead/CATRigBodyHeadMouthL/CATRigBodyHeadMouthL1
+        weight: 1
+      - path: CATRigBody/CATRigBodyHead/CATRigBodyHeadMouthR
+        weight: 1
+      - path: CATRigBody/CATRigBodyHead/CATRigBodyHeadMouthR/CATRigBodyHeadMouthR1
+        weight: 1
+      - path: CATRigBody/CATRigLLeg1UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigLLeg2UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigLLeg3UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigLLeg4UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigLLeg11
+        weight: 1
+      - path: CATRigBody/CATRigLLeg11/CATRigLLeg12
+        weight: 1
+      - path: CATRigBody/CATRigLLeg11/CATRigLLeg12/CATRigLLeg1LAnkle1
+        weight: 1
+      - path: CATRigBody/CATRigLLeg21
+        weight: 1
+      - path: CATRigBody/CATRigLLeg21/CATRigLLeg22
+        weight: 1
+      - path: CATRigBody/CATRigLLeg21/CATRigLLeg22/CATRigLLeg2LAnkle2
+        weight: 1
+      - path: CATRigBody/CATRigLLeg31
+        weight: 1
+      - path: CATRigBody/CATRigLLeg31/CATRigLLeg32
+        weight: 1
+      - path: CATRigBody/CATRigLLeg31/CATRigLLeg32/CATRigLLeg3LAnkle3
+        weight: 1
+      - path: CATRigBody/CATRigLLeg41
+        weight: 1
+      - path: CATRigBody/CATRigLLeg41/CATRigLLeg42
+        weight: 1
+      - path: CATRigBody/CATRigLLeg41/CATRigLLeg42/CATRigLLeg4LAnkle4
+        weight: 1
+      - path: CATRigBody/CATRigRLeg1
+        weight: 1
+      - path: CATRigBody/CATRigRLeg1/CATRigRLeg2
+        weight: 1
+      - path: CATRigBody/CATRigRLeg1/CATRigRLeg2/CATRigRLegLAnkle4
+        weight: 1
+      - path: CATRigBody/CATRigRLeg1UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigRLeg2UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigRLeg3UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigRLeg11
+        weight: 1
+      - path: CATRigBody/CATRigRLeg11/CATRigRLeg12
+        weight: 1
+      - path: CATRigBody/CATRigRLeg11/CATRigRLeg12/CATRigRLeg1RAnkle1
+        weight: 1
+      - path: CATRigBody/CATRigRLeg21
+        weight: 1
+      - path: CATRigBody/CATRigRLeg21/CATRigRLeg22
+        weight: 1
+      - path: CATRigBody/CATRigRLeg21/CATRigRLeg22/CATRigRLeg2RAnkle2
+        weight: 1
+      - path: CATRigBody/CATRigRLeg31
+        weight: 1
+      - path: CATRigBody/CATRigRLeg31/CATRigRLeg32
+        weight: 1
+      - path: CATRigBody/CATRigRLeg31/CATRigRLeg32/CATRigRLeg3RAnkle3
+        weight: 1
+      - path: CATRigBody/CATRigRLegUpVectorNode
+        weight: 1
+      - path: Nat_Spider2_polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,288 @@
+fileFormatVersion: 2
+guid: 05f7cd2accef5f441a78cfd57c53e7b6
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CATRigBody
+    100004: CATRigBodyHead
+    100006: CATRigBodyHeadMouthL
+    100008: CATRigBodyHeadMouthL1
+    100010: CATRigBodyHeadMouthR
+    100012: CATRigBodyHeadMouthR1
+    100014: CATRigLLeg11
+    100016: CATRigLLeg12
+    100018: CATRigLLeg1LAnkle1
+    100020: CATRigLLeg1Platform
+    100022: CATRigLLeg1UpVectorNode
+    100024: CATRigLLeg21
+    100026: CATRigLLeg22
+    100028: CATRigLLeg2LAnkle2
+    100030: CATRigLLeg2Platform
+    100032: CATRigLLeg2UpVectorNode
+    100034: CATRigLLeg31
+    100036: CATRigLLeg32
+    100038: CATRigLLeg3LAnkle3
+    100040: CATRigLLeg3Platform
+    100042: CATRigLLeg3UpVectorNode
+    100044: CATRigLLeg41
+    100046: CATRigLLeg42
+    100048: CATRigLLeg4LAnkle4
+    100050: CATRigLLeg4Platform
+    100052: CATRigLLeg4UpVectorNode
+    100054: CATRigRLeg1
+    100056: CATRigRLeg11
+    100058: CATRigRLeg12
+    100060: CATRigRLeg1Platform
+    100062: CATRigRLeg1RAnkle1
+    100064: CATRigRLeg1UpVectorNode
+    100066: CATRigRLeg2
+    100068: CATRigRLeg21
+    100070: CATRigRLeg22
+    100072: CATRigRLeg2Platform
+    100074: CATRigRLeg2RAnkle2
+    100076: CATRigRLeg2UpVectorNode
+    100078: CATRigRLeg31
+    100080: CATRigRLeg32
+    100082: CATRigRLeg3Platform
+    100084: CATRigRLeg3RAnkle3
+    100086: CATRigRLeg3UpVectorNode
+    100088: CATRigRLegLAnkle4
+    100090: CATRigRLegPlatform
+    100092: CATRigRLegUpVectorNode
+    100094: Group2
+    100096: Nat_Spider2_polySurface1
+    400000: //RootNode
+    400002: CATRigBody
+    400004: CATRigBodyHead
+    400006: CATRigBodyHeadMouthL
+    400008: CATRigBodyHeadMouthL1
+    400010: CATRigBodyHeadMouthR
+    400012: CATRigBodyHeadMouthR1
+    400014: CATRigLLeg11
+    400016: CATRigLLeg12
+    400018: CATRigLLeg1LAnkle1
+    400020: CATRigLLeg1Platform
+    400022: CATRigLLeg1UpVectorNode
+    400024: CATRigLLeg21
+    400026: CATRigLLeg22
+    400028: CATRigLLeg2LAnkle2
+    400030: CATRigLLeg2Platform
+    400032: CATRigLLeg2UpVectorNode
+    400034: CATRigLLeg31
+    400036: CATRigLLeg32
+    400038: CATRigLLeg3LAnkle3
+    400040: CATRigLLeg3Platform
+    400042: CATRigLLeg3UpVectorNode
+    400044: CATRigLLeg41
+    400046: CATRigLLeg42
+    400048: CATRigLLeg4LAnkle4
+    400050: CATRigLLeg4Platform
+    400052: CATRigLLeg4UpVectorNode
+    400054: CATRigRLeg1
+    400056: CATRigRLeg11
+    400058: CATRigRLeg12
+    400060: CATRigRLeg1Platform
+    400062: CATRigRLeg1RAnkle1
+    400064: CATRigRLeg1UpVectorNode
+    400066: CATRigRLeg2
+    400068: CATRigRLeg21
+    400070: CATRigRLeg22
+    400072: CATRigRLeg2Platform
+    400074: CATRigRLeg2RAnkle2
+    400076: CATRigRLeg2UpVectorNode
+    400078: CATRigRLeg31
+    400080: CATRigRLeg32
+    400082: CATRigRLeg3Platform
+    400084: CATRigRLeg3RAnkle3
+    400086: CATRigRLeg3UpVectorNode
+    400088: CATRigRLegLAnkle4
+    400090: CATRigRLegPlatform
+    400092: CATRigRLegUpVectorNode
+    400094: Group2
+    400096: Nat_Spider2_polySurface1
+    2300000: Group2
+    3300000: Group2
+    4300000: Group2
+    4300002: Nat_Spider2_polySurface1
+    7400000: WebShot
+    9500000: //RootNode
+    13700000: Nat_Spider2_polySurface1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: WebShot
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CATRigBody
+        weight: 1
+      - path: CATRigBody/CATRigBodyHead
+        weight: 1
+      - path: CATRigBody/CATRigBodyHead/CATRigBodyHeadMouthL
+        weight: 1
+      - path: CATRigBody/CATRigBodyHead/CATRigBodyHeadMouthL/CATRigBodyHeadMouthL1
+        weight: 1
+      - path: CATRigBody/CATRigBodyHead/CATRigBodyHeadMouthR
+        weight: 1
+      - path: CATRigBody/CATRigBodyHead/CATRigBodyHeadMouthR/CATRigBodyHeadMouthR1
+        weight: 1
+      - path: CATRigBody/CATRigLLeg1UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigLLeg2UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigLLeg3UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigLLeg4UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigLLeg11
+        weight: 1
+      - path: CATRigBody/CATRigLLeg11/CATRigLLeg12
+        weight: 1
+      - path: CATRigBody/CATRigLLeg11/CATRigLLeg12/CATRigLLeg1LAnkle1
+        weight: 1
+      - path: CATRigBody/CATRigLLeg21
+        weight: 1
+      - path: CATRigBody/CATRigLLeg21/CATRigLLeg22
+        weight: 1
+      - path: CATRigBody/CATRigLLeg21/CATRigLLeg22/CATRigLLeg2LAnkle2
+        weight: 1
+      - path: CATRigBody/CATRigLLeg31
+        weight: 1
+      - path: CATRigBody/CATRigLLeg31/CATRigLLeg32
+        weight: 1
+      - path: CATRigBody/CATRigLLeg31/CATRigLLeg32/CATRigLLeg3LAnkle3
+        weight: 1
+      - path: CATRigBody/CATRigLLeg41
+        weight: 1
+      - path: CATRigBody/CATRigLLeg41/CATRigLLeg42
+        weight: 1
+      - path: CATRigBody/CATRigLLeg41/CATRigLLeg42/CATRigLLeg4LAnkle4
+        weight: 1
+      - path: CATRigBody/CATRigRLeg1
+        weight: 1
+      - path: CATRigBody/CATRigRLeg1/CATRigRLeg2
+        weight: 1
+      - path: CATRigBody/CATRigRLeg1/CATRigRLeg2/CATRigRLegLAnkle4
+        weight: 1
+      - path: CATRigBody/CATRigRLeg1UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigRLeg2UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigRLeg3UpVectorNode
+        weight: 1
+      - path: CATRigBody/CATRigRLeg11
+        weight: 1
+      - path: CATRigBody/CATRigRLeg11/CATRigRLeg12
+        weight: 1
+      - path: CATRigBody/CATRigRLeg11/CATRigRLeg12/CATRigRLeg1RAnkle1
+        weight: 1
+      - path: CATRigBody/CATRigRLeg21
+        weight: 1
+      - path: CATRigBody/CATRigRLeg21/CATRigRLeg22
+        weight: 1
+      - path: CATRigBody/CATRigRLeg21/CATRigRLeg22/CATRigRLeg2RAnkle2
+        weight: 1
+      - path: CATRigBody/CATRigRLeg31
+        weight: 1
+      - path: CATRigBody/CATRigRLeg31/CATRigRLeg32
+        weight: 1
+      - path: CATRigBody/CATRigRLeg31/CATRigRLeg32/CATRigRLeg3RAnkle3
+        weight: 1
+      - path: CATRigBody/CATRigRLegUpVectorNode
+        weight: 1
+      - path: CATRigLLeg1Platform
+        weight: 1
+      - path: CATRigLLeg2Platform
+        weight: 1
+      - path: CATRigLLeg3Platform
+        weight: 1
+      - path: CATRigLLeg4Platform
+        weight: 1
+      - path: CATRigRLeg1Platform
+        weight: 1
+      - path: CATRigRLeg2Platform
+        weight: 1
+      - path: CATRigRLeg3Platform
+        weight: 1
+      - path: CATRigRLegPlatform
+        weight: 1
+      - path: Group2
+        weight: 1
+      - path: Nat_Spider2_polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

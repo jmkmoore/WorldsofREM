@@ -19,6 +19,13 @@ public class ProjectileRaven : MonoBehaviour {
     public float gravity = -25f;
     public float runSpeed = 8f;
 
+    public float projectileTimer = 2.5f;
+    public float projectileCooldown = 3f;
+    public float projectileAnimationTimer = 0.667f;
+    private bool firedProjectile = true;
+
+    public GameObject FeatherProjectile;
+    Random rand;
 
     // Use this for initialization
     void Start()
@@ -30,7 +37,7 @@ public class ProjectileRaven : MonoBehaviour {
         _controller.onControllerCollidedEvent += onControllerCollider;
         _controller.onTriggerEnterEvent += onTriggerEnterEvent;
         _controller.onTriggerExitEvent += onTriggerExitEvent;
-
+        rand = new Random();
     }
 
     #region Event Listeners
@@ -74,9 +81,52 @@ public class ProjectileRaven : MonoBehaviour {
 
         _velocity = _controller.velocity;
 
-        _velocity.x = flightSpeed;
+        projectileTimer += Time.deltaTime;
+
+        if (firedProjectile)
+        {
+            if (projectileTimer > 1.75f && _velocity.x == 0)
+            {
+                _animator.StopPlayback();
+                _animator.Play(Animator.StringToHash("Flying"));
+                _velocity.x = flightSpeed;
+            }
+
+            if (projectileTimer > projectileCooldown)
+            {
+                projectileTimer = 0;
+                firedProjectile = false;
+            }
+
+        }
+        
+        else if (!firedProjectile)
+        {
+            if (projectileTimer > 1.0f)
+            {
+                ShootFeather();
+                firedProjectile = true;
+                _animator.Play(Animator.StringToHash("DoubleWing"));
+            }
+            if (projectileTimer < 0.5f)
+            {
+                _animator.StopPlayback();
+                _animator.Play(Animator.StringToHash("Idle"));
+                firedProjectile = false;
+                _velocity.x = 0;
+            }
+        }
+
         _velocity.y = 0;
-        _animator.Play(Animator.StringToHash("Flight"));
         _controller.move(_velocity * Time.deltaTime);
 	}
+
+    void ShootFeather()
+    {
+        NonNormalProjectile feather = (NonNormalProjectile)FeatherProjectile.GetComponent("NonNormalProjectile");
+       // feather.setDirection(transform.localScale.x);
+        feather.setAngle(2 * transform.localScale.x, -1);
+        NonNormalProjectile bulletClone = (NonNormalProjectile)Instantiate(feather, new Vector3(transform.position.x + (2.5f * transform.localScale.x), transform.position.y, transform.position.z), transform.rotation);
+
+    }
 }

@@ -82,7 +82,93 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG
+        weight: 1
+      - path: COG/L_Leg
+        weight: 1
+      - path: COG/L_Leg/L_Ankle
+        weight: 1
+      - path: COG/L_Leg/L_Ankle/L_Base
+        weight: 1
+      - path: COG/L_Leg/L_Ankle/L_Base/L_Toe1
+        weight: 1
+      - path: COG/L_Leg/L_Ankle/L_Base/L_Toe2
+        weight: 1
+      - path: COG/L_Leg/L_Ankle/L_Base/L_Toe3
+        weight: 1
+      - path: COG/R_Leg
+        weight: 1
+      - path: COG/R_Leg/R_Ankle
+        weight: 1
+      - path: COG/R_Leg/R_Ankle/R_Base
+        weight: 1
+      - path: COG/R_Leg/R_Ankle/R_Base/R_Toe1
+        weight: 1
+      - path: COG/R_Leg/R_Ankle/R_Base/R_Toe2
+        weight: 1
+      - path: COG/R_Leg/R_Ankle/R_Base/R_Toe3
+        weight: 1
+      - path: COG/Spine1
+        weight: 1
+      - path: COG/Spine1/Spine2
+        weight: 1
+      - path: COG/Spine1/Spine2/L_Wing1
+        weight: 1
+      - path: COG/Spine1/Spine2/L_Wing1/L_Wing2
+        weight: 1
+      - path: COG/Spine1/Spine2/L_Wing1/L_Wing2/L_Wing3
+        weight: 1
+      - path: COG/Spine1/Spine2/Neck
+        weight: 1
+      - path: COG/Spine1/Spine2/Neck/Head
+        weight: 1
+      - path: COG/Spine1/Spine2/R_Wing1
+        weight: 1
+      - path: COG/Spine1/Spine2/R_Wing1/R_Wing2
+        weight: 1
+      - path: COG/Spine1/Spine2/R_Wing1/R_Wing2/R_Wing3
+        weight: 1
+      - path: COG/Tail1
+        weight: 1
+      - path: COG/Tail1/Tail2
+        weight: 1
+      - path: COG/Tail1/Tail2/Tail3
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: Nat_Raven1:polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
