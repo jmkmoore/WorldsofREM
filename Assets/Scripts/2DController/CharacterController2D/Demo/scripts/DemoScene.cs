@@ -12,7 +12,7 @@ public class DemoScene : MonoBehaviour
 	public float jumpHeight = 3f;
     public float dashBoost = 15f;
     private int dashCount = 0;
-    private int dashMax = 2;
+    private int dashMax = 1;
 
     private float airDashTime = 0.167f;
     public float comboTime = 2f;
@@ -36,7 +36,13 @@ public class DemoScene : MonoBehaviour
     private bool isDashing = false;
     BoxCollider2D myBoxCollider;
 
+    public int jumpCount= 0;
+
     public GameObject attackBox;
+    public GameObject projectile;
+
+    private float shotCountdown = .5f;
+    private float shotTime = 0;
 
     void Awake()
 	{
@@ -66,11 +72,11 @@ public class DemoScene : MonoBehaviour
 
 	void onTriggerEnterEvent( Collider2D col )
 	{
-		Debug.Log( "onTriggerEnterEvent: " + col.tag);
+		Debug.Log( "onTriggerEnterEvent: " + col.tag + " "  + col.name + " ");
         if (col.tag.Equals("DestructPlat"))
         {
             FallApart obj = (FallApart)col.gameObject.GetComponent<FallApart>();
-            obj.destroyTimer += Time.deltaTime;
+            obj.triggerTimer();
         }
         if (col.tag.Equals("DeathWall"))
         {
@@ -102,12 +108,22 @@ public class DemoScene : MonoBehaviour
         {
             if (_controller.isGrounded)
             {
+                jumpCount = 0;
                 _velocity.y = 0;
                 if (dashCount > 0)
                 {
                     dashCount = 0;
                 }
             }
+        }
+
+        if (shotTime > .5f)
+        {
+            shotTime = 0;
+        }
+        else if (shotTime != 0)
+        {
+            shotTime += Time.deltaTime;
         }
 
         if (airDashTime > 0.7f)
@@ -156,9 +172,16 @@ public class DemoScene : MonoBehaviour
                 attack(20);
             }
         }
-
-        
-		else if( Input.GetKey( KeyCode.RightArrow ) )
+        else if (Input.GetKeyDown(KeyCode.R))
+        {
+            if (shotTime == 0 || shotTime > 0.5f)
+            {
+                _animator.Play(Animator.StringToHash("TienRanged"));
+                shotTime += Time.deltaTime;
+                spawnProjectile();
+            }
+        }
+        else if( Input.GetKey( KeyCode.RightArrow ) )
 		{
 			normalizedHorizontalSpeed = 1;
 			if( transform.localScale.x < 0f )
@@ -167,24 +190,31 @@ public class DemoScene : MonoBehaviour
             left = false;
 
             if (!_controller.isGrounded)
-                normalizedHorizontalSpeed = .75f;
+                normalizedHorizontalSpeed = .9f;
         }
 		else if( Input.GetKey( KeyCode.LeftArrow ) )
 		{
 			normalizedHorizontalSpeed = -1;
 			if( transform.localScale.x > 0f )
-				transform.localScale = new Vector3( -transform.localScale.x, transform.localScale.y, transform.localScale.z );
-
-			if( _controller.isGrounded )
-			
+				transform.localScale = new Vector3( -transform.localScale.x, transform.localScale.y, transform.localScale.z );			
             right = false;
             left = true;
             if (!_controller.isGrounded)
-                normalizedHorizontalSpeed = -.75f;
+                normalizedHorizontalSpeed = -.9f;
 		}
 		else
 		{
 			normalizedHorizontalSpeed = 0;
+        }
+
+        if (comboCountdown != 0 && _controller.isGrounded && comboCountdown < 0.5f)
+        {
+            normalizedHorizontalSpeed = 0;
+        }
+
+        if (comboCountdown > 0.5f && _controller.isGrounded && normalizedHorizontalSpeed == 0)
+        {
+            _animator.Play(Animator.StringToHash("Idle"));
         }
 
         #region Movement Animation
@@ -192,13 +222,13 @@ public class DemoScene : MonoBehaviour
         {
                 _animator.Play(Animator.StringToHash("Run"));
         }
-        else if (_controller.isGrounded && normalizedHorizontalSpeed == 0 && !isDashing && comboCountdown == 0)
+        if (_controller.isGrounded && normalizedHorizontalSpeed == 0 && !isDashing && comboCountdown == 0)
         {
             _animator.Play(Animator.StringToHash("Idle"));
         }
         #endregion
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) && !_controller.isGrounded)
         {
             if (dashCount < dashMax)
             {
@@ -226,36 +256,40 @@ public class DemoScene : MonoBehaviour
         }
 
 		// we can only jump whilst grounded
-		if( _controller.isGrounded && Input.GetKeyDown( KeyCode.UpArrow ) )
+		if( (_controller.isGrounded || jumpCount < 2) && Input.GetKeyDown( KeyCode.UpArrow ) )
 		{
 			_velocity.y = Mathf.Sqrt( 2f * jumpHeight * -gravity );
+            _animator.StopPlayback();
 			_animator.Play( Animator.StringToHash( "Jump" ) );
+            jumpCount++;
 		}
 
-
-        if(_controller.isGrounded && (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow)) && _velocity.x == 0 && _velocity.y == 0 && attackCount == 0){
-            _animator.Play(Animator.StringToHash("Idle"));
+        if (!_controller.isGrounded && _velocity.y <= 0)
+        {
+            _animator.Play(Animator.StringToHash("TienFall"));
         }
+        
 
 
 		// apply horizontal speed smoothing it
 		var smoothedMovementFactor = _controller.isGrounded ? groundDamping : inAirDamping; // how fast do we change direction?
 
+        if (airDashTime != 0 && airDashTime < 0.5f)
+            _velocity.y = 0;
+        else
+            _velocity.y += gravity * Time.deltaTime;
+
+
         if (!isDashing)
         {
             _velocity.x = Mathf.Lerp(_velocity.x, normalizedHorizontalSpeed * runSpeed, Time.deltaTime * smoothedMovementFactor);
-
-            _velocity.y += gravity * Time.deltaTime;
-
-            _controller.move(_velocity * Time.deltaTime);
         }
         else
         {
             _velocity.x = Mathf.Lerp(_velocity.x, normalizedHorizontalSpeed * runSpeed * dashBoost, Time.deltaTime * groundDamping);
-            _velocity.y = 0;
-            _controller.move(_velocity * Time.deltaTime);
             myBoxCollider.size = new Vector3(10f, 1.75f);
         }
+        _controller.move(_velocity * Time.deltaTime);
 
         
 	}
@@ -270,6 +304,13 @@ public class DemoScene : MonoBehaviour
     public void shoutOut()
     {
 
+    }
+
+    public void spawnProjectile()
+    {
+        Projectile ball = (Projectile)projectile.GetComponent("Projectile");
+        ball.setDirection(transform.localScale.x);
+        Projectile ballClone = (Projectile)Instantiate(ball, new Vector3(transform.position.x + (2.5f * transform.localScale.x), transform.position.y + 7f, transform.position.z), transform.rotation);
     }
 
 }

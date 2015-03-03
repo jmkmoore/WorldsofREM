@@ -6,6 +6,8 @@ public class FallApart : MonoBehaviour {
     public float destroyTriggerTime = 3f;
     public float destroyTimer = 0;
 
+    public bool triggered = false;
+
     public CharacterController2D controller;
 
 	// Use this for initialization
@@ -15,16 +17,14 @@ public class FallApart : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (destroyTimer != 0)
+        if (triggered)
         {
             destroyTimer += Time.deltaTime;
         }
-        
-        if (destroyTimer >= destroyTriggerTime)
+        if (destroyTimer > destroyTriggerTime)
         {
             DestroyObject(gameObject);
         }
-
 	}
 
     void OnColliderEnter2D(Collider2D other)
@@ -36,6 +36,11 @@ public class FallApart : MonoBehaviour {
     void OnColliderExit2D(Collider2D other)
     {
         controller = null;
+    }
+
+    public void triggerTimer()
+    {
+        triggered = true;
     }
 }
 

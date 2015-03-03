@@ -1,0 +1,320 @@
+fileFormatVersion: 2
+guid: 5e8b703275602d94b9718e769a03ac30
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: COG
+    100002: //RootNode
+    100004: Group2
+    100006: Head
+    100008: Left_Arm_Joint1
+    100010: Left_Arm_Joint2
+    100012: Left_Arm_Joint3
+    100014: Left_Arm_Joint4
+    100016: Left_Leg1_Joint1
+    100018: Left_Leg1_Joint2
+    100020: Left_Leg1_Joint3
+    100022: Left_Leg1_Joint4
+    100024: Left_Leg1_Joint5
+    100026: Left_Leg2_Joint1
+    100028: Left_Leg2_Joint2
+    100030: Left_Leg2_Joint3
+    100032: Left_Leg2_Joint4
+    100034: Left_Leg2_Joint5
+    100036: Left_Leg3_Joint1
+    100038: Left_Leg3_Joint2
+    100040: Left_Leg3_Joint3
+    100042: Left_Leg3_Joint4
+    100044: Left_Leg3_Joint5
+    100046: Left_Mand1
+    100048: Left_Mand2
+    100050: Left_Mand3
+    100052: Left_Pincer1_1
+    100054: Left_Pincer1_2
+    100056: Left_Pincer2_1
+    100058: Left_Pincer2_2
+    100060: Nat_Spider1:polySurface1
+    100062: Right_Arm_Joint1
+    100064: Right_Arm_Joint2
+    100066: Right_Arm_Joint3
+    100068: Right_Arm_Joint4
+    100070: Right_Leg1_Joint1
+    100072: Right_Leg1_Joint2
+    100074: Right_Leg1_Joint3
+    100076: Right_Leg1_Joint4
+    100078: Right_Leg1_Joint5
+    100080: Right_Leg2_Joint1
+    100082: Right_Leg2_Joint2
+    100084: Right_Leg2_Joint3
+    100086: Right_Leg2_Joint4
+    100088: Right_Leg2_Joint5
+    100090: Right_Leg3_Joint1
+    100092: Right_Leg3_Joint2
+    100094: Right_Leg3_Joint3
+    100096: Right_Leg3_Joint4
+    100098: Right_Leg3_Joint5
+    100100: Right_Mand1
+    100102: Right_Mand2
+    100104: Right_Mand3
+    100106: Right_Pincer1_1
+    100108: Right_Pincer1_2
+    100110: Right_Pincer2_1
+    100112: Right_Pincer2_2
+    400000: COG
+    400002: //RootNode
+    400004: Group2
+    400006: Head
+    400008: Left_Arm_Joint1
+    400010: Left_Arm_Joint2
+    400012: Left_Arm_Joint3
+    400014: Left_Arm_Joint4
+    400016: Left_Leg1_Joint1
+    400018: Left_Leg1_Joint2
+    400020: Left_Leg1_Joint3
+    400022: Left_Leg1_Joint4
+    400024: Left_Leg1_Joint5
+    400026: Left_Leg2_Joint1
+    400028: Left_Leg2_Joint2
+    400030: Left_Leg2_Joint3
+    400032: Left_Leg2_Joint4
+    400034: Left_Leg2_Joint5
+    400036: Left_Leg3_Joint1
+    400038: Left_Leg3_Joint2
+    400040: Left_Leg3_Joint3
+    400042: Left_Leg3_Joint4
+    400044: Left_Leg3_Joint5
+    400046: Left_Mand1
+    400048: Left_Mand2
+    400050: Left_Mand3
+    400052: Left_Pincer1_1
+    400054: Left_Pincer1_2
+    400056: Left_Pincer2_1
+    400058: Left_Pincer2_2
+    400060: Nat_Spider1:polySurface1
+    400062: Right_Arm_Joint1
+    400064: Right_Arm_Joint2
+    400066: Right_Arm_Joint3
+    400068: Right_Arm_Joint4
+    400070: Right_Leg1_Joint1
+    400072: Right_Leg1_Joint2
+    400074: Right_Leg1_Joint3
+    400076: Right_Leg1_Joint4
+    400078: Right_Leg1_Joint5
+    400080: Right_Leg2_Joint1
+    400082: Right_Leg2_Joint2
+    400084: Right_Leg2_Joint3
+    400086: Right_Leg2_Joint4
+    400088: Right_Leg2_Joint5
+    400090: Right_Leg3_Joint1
+    400092: Right_Leg3_Joint2
+    400094: Right_Leg3_Joint3
+    400096: Right_Leg3_Joint4
+    400098: Right_Leg3_Joint5
+    400100: Right_Mand1
+    400102: Right_Mand2
+    400104: Right_Mand3
+    400106: Right_Pincer1_1
+    400108: Right_Pincer1_2
+    400110: Right_Pincer2_1
+    400112: Right_Pincer2_2
+    2300000: Group2
+    3300000: Group2
+    4300000: Nat_Spider1:polySurface1
+    4300002: Group2
+    7400000: DropBite
+    9500000: //RootNode
+    13700000: Nat_Spider1:polySurface1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: DropBite
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG
+        weight: 1
+      - path: COG/Head
+        weight: 1
+      - path: COG/Left_Arm_Joint1
+        weight: 1
+      - path: COG/Left_Arm_Joint1/Left_Arm_Joint2
+        weight: 1
+      - path: COG/Left_Arm_Joint1/Left_Arm_Joint2/Left_Arm_Joint3
+        weight: 1
+      - path: COG/Left_Arm_Joint1/Left_Arm_Joint2/Left_Arm_Joint3/Left_Arm_Joint4
+        weight: 1
+      - path: COG/Left_Arm_Joint1/Left_Arm_Joint2/Left_Arm_Joint3/Left_Arm_Joint4/Left_Pincer1_1
+        weight: 1
+      - path: COG/Left_Arm_Joint1/Left_Arm_Joint2/Left_Arm_Joint3/Left_Arm_Joint4/Left_Pincer1_1/Left_Pincer1_2
+        weight: 1
+      - path: COG/Left_Arm_Joint1/Left_Arm_Joint2/Left_Arm_Joint3/Left_Arm_Joint4/Left_Pincer2_1
+        weight: 1
+      - path: COG/Left_Arm_Joint1/Left_Arm_Joint2/Left_Arm_Joint3/Left_Arm_Joint4/Left_Pincer2_1/Left_Pincer2_2
+        weight: 1
+      - path: COG/Left_Leg1_Joint1
+        weight: 1
+      - path: COG/Left_Leg1_Joint1/Left_Leg1_Joint2
+        weight: 1
+      - path: COG/Left_Leg1_Joint1/Left_Leg1_Joint2/Left_Leg1_Joint3
+        weight: 1
+      - path: COG/Left_Leg1_Joint1/Left_Leg1_Joint2/Left_Leg1_Joint3/Left_Leg1_Joint4
+        weight: 1
+      - path: COG/Left_Leg1_Joint1/Left_Leg1_Joint2/Left_Leg1_Joint3/Left_Leg1_Joint4/Left_Leg1_Joint5
+        weight: 1
+      - path: COG/Left_Leg2_Joint1
+        weight: 1
+      - path: COG/Left_Leg2_Joint1/Left_Leg2_Joint2
+        weight: 1
+      - path: COG/Left_Leg2_Joint1/Left_Leg2_Joint2/Left_Leg2_Joint3
+        weight: 1
+      - path: COG/Left_Leg2_Joint1/Left_Leg2_Joint2/Left_Leg2_Joint3/Left_Leg2_Joint4
+        weight: 1
+      - path: COG/Left_Leg2_Joint1/Left_Leg2_Joint2/Left_Leg2_Joint3/Left_Leg2_Joint4/Left_Leg2_Joint5
+        weight: 1
+      - path: COG/Left_Leg3_Joint1
+        weight: 1
+      - path: COG/Left_Leg3_Joint1/Left_Leg3_Joint2
+        weight: 1
+      - path: COG/Left_Leg3_Joint1/Left_Leg3_Joint2/Left_Leg3_Joint3
+        weight: 1
+      - path: COG/Left_Leg3_Joint1/Left_Leg3_Joint2/Left_Leg3_Joint3/Left_Leg3_Joint4
+        weight: 1
+      - path: COG/Left_Leg3_Joint1/Left_Leg3_Joint2/Left_Leg3_Joint3/Left_Leg3_Joint4/Left_Leg3_Joint5
+        weight: 1
+      - path: COG/Left_Mand1
+        weight: 1
+      - path: COG/Left_Mand1/Left_Mand2
+        weight: 1
+      - path: COG/Left_Mand1/Left_Mand2/Left_Mand3
+        weight: 1
+      - path: COG/Right_Arm_Joint1
+        weight: 1
+      - path: COG/Right_Arm_Joint1/Right_Arm_Joint2
+        weight: 1
+      - path: COG/Right_Arm_Joint1/Right_Arm_Joint2/Right_Arm_Joint3
+        weight: 1
+      - path: COG/Right_Arm_Joint1/Right_Arm_Joint2/Right_Arm_Joint3/Right_Arm_Joint4
+        weight: 1
+      - path: COG/Right_Arm_Joint1/Right_Arm_Joint2/Right_Arm_Joint3/Right_Arm_Joint4/Right_Pincer1_1
+        weight: 1
+      - path: COG/Right_Arm_Joint1/Right_Arm_Joint2/Right_Arm_Joint3/Right_Arm_Joint4/Right_Pincer1_1/Right_Pincer1_2
+        weight: 1
+      - path: COG/Right_Arm_Joint1/Right_Arm_Joint2/Right_Arm_Joint3/Right_Arm_Joint4/Right_Pincer2_1
+        weight: 1
+      - path: COG/Right_Arm_Joint1/Right_Arm_Joint2/Right_Arm_Joint3/Right_Arm_Joint4/Right_Pincer2_1/Right_Pincer2_2
+        weight: 1
+      - path: COG/Right_Leg1_Joint1
+        weight: 1
+      - path: COG/Right_Leg1_Joint1/Right_Leg1_Joint2
+        weight: 1
+      - path: COG/Right_Leg1_Joint1/Right_Leg1_Joint2/Right_Leg1_Joint3
+        weight: 1
+      - path: COG/Right_Leg1_Joint1/Right_Leg1_Joint2/Right_Leg1_Joint3/Right_Leg1_Joint4
+        weight: 1
+      - path: COG/Right_Leg1_Joint1/Right_Leg1_Joint2/Right_Leg1_Joint3/Right_Leg1_Joint4/Right_Leg1_Joint5
+        weight: 1
+      - path: COG/Right_Leg2_Joint1
+        weight: 1
+      - path: COG/Right_Leg2_Joint1/Right_Leg2_Joint2
+        weight: 1
+      - path: COG/Right_Leg2_Joint1/Right_Leg2_Joint2/Right_Leg2_Joint3
+        weight: 1
+      - path: COG/Right_Leg2_Joint1/Right_Leg2_Joint2/Right_Leg2_Joint3/Right_Leg2_Joint4
+        weight: 1
+      - path: COG/Right_Leg2_Joint1/Right_Leg2_Joint2/Right_Leg2_Joint3/Right_Leg2_Joint4/Right_Leg2_Joint5
+        weight: 1
+      - path: COG/Right_Leg3_Joint1
+        weight: 1
+      - path: COG/Right_Leg3_Joint1/Right_Leg3_Joint2
+        weight: 1
+      - path: COG/Right_Leg3_Joint1/Right_Leg3_Joint2/Right_Leg3_Joint3
+        weight: 1
+      - path: COG/Right_Leg3_Joint1/Right_Leg3_Joint2/Right_Leg3_Joint3/Right_Leg3_Joint4
+        weight: 1
+      - path: COG/Right_Leg3_Joint1/Right_Leg3_Joint2/Right_Leg3_Joint3/Right_Leg3_Joint4/Right_Leg3_Joint5
+        weight: 1
+      - path: COG/Right_Mand1
+        weight: 1
+      - path: COG/Right_Mand1/Right_Mand2
+        weight: 1
+      - path: COG/Right_Mand1/Right_Mand2/Right_Mand3
+        weight: 1
+      - path: Group2
+        weight: 1
+      - path: Nat_Spider1:polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,628 @@
+fileFormatVersion: 2
+guid: 19c03f34be0c57044826e24ce11e8be5
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bottom_Vine1
+    100002: Bottom_Vine2
+    100004: Bottom_Vine3
+    100006: Bottom_Vine4
+    100008: Bottom_Vine5
+    100010: Bottom_Vine6
+    100012: COG
+    100014: Finger1_1
+    100016: Finger1_2
+    100018: Finger1_3
+    100020: Finger1_4
+    100022: Finger2_1
+    100024: Finger2_2
+    100026: Finger2_3
+    100028: Finger2_4
+    100030: Finger3_1
+    100032: Finger3_2
+    100034: Finger3_3
+    100036: Finger3_4
+    100038: Head
+    100040: ikHandle1
+    100042: ikHandle2
+    100044: ikHandle3
+    100046: Irvine_ForAnim:polySurface1
+    100048: //RootNode
+    100050: Left_Elbow
+    100052: Left_Foot
+    100054: Left_foot_Control
+    100056: Left_Knee
+    100058: Left_Leg
+    100060: Left_Palm
+    100062: Left_Shoulder
+    100064: Left_Wrist
+    100066: Lower_Face
+    100068: polySurface1
+    100070: polySurface10
+    100072: polySurface11
+    100074: polySurface12
+    100076: polySurface13
+    100078: polySurface14
+    100080: polySurface15
+    100082: polySurface16
+    100084: polySurface17
+    100086: polySurface18
+    100088: polySurface19
+    100090: polySurface2
+    100092: polySurface20
+    100094: polySurface21
+    100096: polySurface22
+    100098: polySurface23
+    100100: polySurface24
+    100102: polySurface25
+    100104: polySurface26
+    100106: polySurface27
+    100108: polySurface28
+    100110: polySurface29
+    100112: polySurface30
+    100114: polySurface31
+    100116: polySurface32
+    100118: polySurface33
+    100120: polySurface34
+    100122: polySurface35
+    100124: polySurface36
+    100126: polySurface37
+    100128: polySurface38
+    100130: polySurface39
+    100132: polySurface4
+    100134: polySurface40
+    100136: polySurface41
+    100138: polySurface42
+    100140: polySurface43
+    100142: polySurface44
+    100144: polySurface45
+    100146: polySurface46
+    100148: polySurface5
+    100150: polySurface7
+    100152: polySurface8
+    100154: polySurface9
+    100156: Right_Elbow
+    100158: Right_Foot
+    100160: Right_Foot_Control
+    100162: Right_Knee
+    100164: Right_Leg
+    100166: Right_Shoulder
+    100168: Right_Wrist
+    100170: Spine1
+    100172: Spine2
+    100174: Spine3
+    100176: Thumb1
+    100178: Thumb2
+    100180: Thumb3
+    100182: Thumb4
+    100184: Top_Vine1
+    100186: Top_Vine2
+    100188: Top_Vine3
+    100190: Top_Vine4
+    100192: Top_Vine5
+    100194: Top_Vine6
+    100196: transform1
+    100198: transform10
+    100200: transform11
+    100202: transform12
+    100204: transform13
+    100206: transform14
+    100208: transform15
+    100210: transform16
+    100212: transform17
+    100214: transform18
+    100216: transform19
+    100218: transform2
+    100220: transform20
+    100222: transform21
+    100224: transform22
+    100226: transform23
+    100228: transform24
+    100230: transform25
+    100232: transform26
+    100234: transform27
+    100236: transform3
+    100238: transform4
+    100240: transform5
+    100242: transform6
+    100244: transform7
+    100246: transform8
+    100248: transform9
+    100250: Upper_Face
+    400000: Bottom_Vine1
+    400002: Bottom_Vine2
+    400004: Bottom_Vine3
+    400006: Bottom_Vine4
+    400008: Bottom_Vine5
+    400010: Bottom_Vine6
+    400012: COG
+    400014: Finger1_1
+    400016: Finger1_2
+    400018: Finger1_3
+    400020: Finger1_4
+    400022: Finger2_1
+    400024: Finger2_2
+    400026: Finger2_3
+    400028: Finger2_4
+    400030: Finger3_1
+    400032: Finger3_2
+    400034: Finger3_3
+    400036: Finger3_4
+    400038: Head
+    400040: ikHandle1
+    400042: ikHandle2
+    400044: ikHandle3
+    400046: Irvine_ForAnim:polySurface1
+    400048: //RootNode
+    400050: Left_Elbow
+    400052: Left_Foot
+    400054: Left_foot_Control
+    400056: Left_Knee
+    400058: Left_Leg
+    400060: Left_Palm
+    400062: Left_Shoulder
+    400064: Left_Wrist
+    400066: Lower_Face
+    400068: polySurface1
+    400070: polySurface10
+    400072: polySurface11
+    400074: polySurface12
+    400076: polySurface13
+    400078: polySurface14
+    400080: polySurface15
+    400082: polySurface16
+    400084: polySurface17
+    400086: polySurface18
+    400088: polySurface19
+    400090: polySurface2
+    400092: polySurface20
+    400094: polySurface21
+    400096: polySurface22
+    400098: polySurface23
+    400100: polySurface24
+    400102: polySurface25
+    400104: polySurface26
+    400106: polySurface27
+    400108: polySurface28
+    400110: polySurface29
+    400112: polySurface30
+    400114: polySurface31
+    400116: polySurface32
+    400118: polySurface33
+    400120: polySurface34
+    400122: polySurface35
+    400124: polySurface36
+    400126: polySurface37
+    400128: polySurface38
+    400130: polySurface39
+    400132: polySurface4
+    400134: polySurface40
+    400136: polySurface41
+    400138: polySurface42
+    400140: polySurface43
+    400142: polySurface44
+    400144: polySurface45
+    400146: polySurface46
+    400148: polySurface5
+    400150: polySurface7
+    400152: polySurface8
+    400154: polySurface9
+    400156: Right_Elbow
+    400158: Right_Foot
+    400160: Right_Foot_Control
+    400162: Right_Knee
+    400164: Right_Leg
+    400166: Right_Shoulder
+    400168: Right_Wrist
+    400170: Spine1
+    400172: Spine2
+    400174: Spine3
+    400176: Thumb1
+    400178: Thumb2
+    400180: Thumb3
+    400182: Thumb4
+    400184: Top_Vine1
+    400186: Top_Vine2
+    400188: Top_Vine3
+    400190: Top_Vine4
+    400192: Top_Vine5
+    400194: Top_Vine6
+    400196: transform1
+    400198: transform10
+    400200: transform11
+    400202: transform12
+    400204: transform13
+    400206: transform14
+    400208: transform15
+    400210: transform16
+    400212: transform17
+    400214: transform18
+    400216: transform19
+    400218: transform2
+    400220: transform20
+    400222: transform21
+    400224: transform22
+    400226: transform23
+    400228: transform24
+    400230: transform25
+    400232: transform26
+    400234: transform27
+    400236: transform3
+    400238: transform4
+    400240: transform5
+    400242: transform6
+    400244: transform7
+    400246: transform8
+    400248: transform9
+    400250: Upper_Face
+    2300000: polySurface2
+    3300000: polySurface2
+    4300000: polySurface2
+    4300002: polySurface26
+    4300004: polySurface28
+    4300006: polySurface29
+    4300008: polySurface30
+    4300010: polySurface31
+    4300012: polySurface32
+    4300014: polySurface33
+    4300016: polySurface34
+    4300018: polySurface35
+    4300020: polySurface36
+    4300022: polySurface37
+    4300024: polySurface38
+    4300026: polySurface39
+    4300028: polySurface40
+    4300030: polySurface41
+    4300032: polySurface42
+    4300034: polySurface46
+    7400000: SeedThrow
+    9500000: //RootNode
+    13700000: polySurface26
+    13700002: polySurface28
+    13700004: polySurface29
+    13700006: polySurface30
+    13700008: polySurface31
+    13700010: polySurface32
+    13700012: polySurface33
+    13700014: polySurface34
+    13700016: polySurface35
+    13700018: polySurface36
+    13700020: polySurface37
+    13700022: polySurface38
+    13700024: polySurface39
+    13700026: polySurface40
+    13700028: polySurface41
+    13700030: polySurface42
+    13700032: polySurface46
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SeedThrow
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: COG
+        weight: 1
+      - path: COG/Left_Leg
+        weight: 1
+      - path: COG/Left_Leg/Left_Knee
+        weight: 1
+      - path: COG/Left_Leg/Left_Knee/Left_Foot
+        weight: 1
+      - path: COG/Right_Leg
+        weight: 1
+      - path: COG/Right_Leg/Right_Knee
+        weight: 1
+      - path: COG/Right_Leg/Right_Knee/Right_Foot
+        weight: 1
+      - path: COG/Spine1
+        weight: 1
+      - path: COG/Spine1/Spine2
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Head
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Head/Lower_Face
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Head/Upper_Face
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Left_Shoulder
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Left_Shoulder/Left_Elbow
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Left_Shoulder/Left_Elbow/Left_Wrist
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Palm
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Palm/Finger1_1
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Palm/Finger1_1/Finger1_2
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Palm/Finger1_1/Finger1_2/Finger1_3
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Palm/Finger1_1/Finger1_2/Finger1_3/Finger1_4
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Palm/Finger2_1
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Palm/Finger2_1/Finger2_2
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Palm/Finger2_1/Finger2_2/Finger2_3
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Palm/Finger2_1/Finger2_2/Finger2_3/Finger2_4
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Palm/Finger3_1
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Palm/Finger3_1/Finger3_2
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Palm/Finger3_1/Finger3_2/Finger3_3
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Palm/Finger3_1/Finger3_2/Finger3_3/Finger3_4
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Palm/Thumb1
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Palm/Thumb1/Thumb2
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Palm/Thumb1/Thumb2/Thumb3
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Palm/Thumb1/Thumb2/Thumb3/Thumb4
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Right_Shoulder
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Right_Shoulder/Right_Elbow
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Right_Shoulder/Right_Elbow/Right_Wrist
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Right_Shoulder/Right_Elbow/Right_Wrist/Bottom_Vine1
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Right_Shoulder/Right_Elbow/Right_Wrist/Bottom_Vine1/Bottom_Vine2
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Right_Shoulder/Right_Elbow/Right_Wrist/Bottom_Vine1/Bottom_Vine2/Bottom_Vine3
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Right_Shoulder/Right_Elbow/Right_Wrist/Bottom_Vine1/Bottom_Vine2/Bottom_Vine3/Bottom_Vine4
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Right_Shoulder/Right_Elbow/Right_Wrist/Bottom_Vine1/Bottom_Vine2/Bottom_Vine3/Bottom_Vine4/Bottom_Vine5
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Right_Shoulder/Right_Elbow/Right_Wrist/Bottom_Vine1/Bottom_Vine2/Bottom_Vine3/Bottom_Vine4/Bottom_Vine5/Bottom_Vine6
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Right_Shoulder/Right_Elbow/Right_Wrist/Top_Vine1
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Right_Shoulder/Right_Elbow/Right_Wrist/Top_Vine1/Top_Vine2
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Right_Shoulder/Right_Elbow/Right_Wrist/Top_Vine1/Top_Vine2/Top_Vine3
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Right_Shoulder/Right_Elbow/Right_Wrist/Top_Vine1/Top_Vine2/Top_Vine3/Top_Vine4
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Right_Shoulder/Right_Elbow/Right_Wrist/Top_Vine1/Top_Vine2/Top_Vine3/Top_Vine4/Top_Vine5
+        weight: 1
+      - path: COG/Spine1/Spine2/Spine3/Right_Shoulder/Right_Elbow/Right_Wrist/Top_Vine1/Top_Vine2/Top_Vine3/Top_Vine4/Top_Vine5/Top_Vine6
+        weight: 1
+      - path: ikHandle1
+        weight: 1
+      - path: ikHandle2
+        weight: 1
+      - path: ikHandle3
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface1
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface1/transform21
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface2
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface4
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface4/transform20
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface5
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface5/transform19
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface7
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface7/transform18
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface8
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface8/transform17
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface9
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface9/transform16
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface10
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface10/transform15
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface11
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface11/transform14
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface12
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface12/transform13
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface13
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface13/transform12
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface14
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface14/transform11
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface15
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface15/transform10
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface16
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface16/transform9
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface17
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface17/transform8
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface18
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface18/transform7
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface19
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface19/transform6
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface20
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface20/transform5
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface21
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface21/transform4
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface22
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface22/transform3
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface23
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/polySurface23/transform2
+        weight: 1
+      - path: Irvine_ForAnim:polySurface1/transform1
+        weight: 1
+      - path: Left_foot_Control
+        weight: 1
+      - path: polySurface24
+        weight: 1
+      - path: polySurface24/polySurface25
+        weight: 1
+      - path: polySurface24/polySurface25/transform27
+        weight: 1
+      - path: polySurface24/polySurface26
+        weight: 1
+      - path: polySurface24/polySurface27
+        weight: 1
+      - path: polySurface24/polySurface27/transform25
+        weight: 1
+      - path: polySurface24/polySurface28
+        weight: 1
+      - path: polySurface24/polySurface29
+        weight: 1
+      - path: polySurface24/polySurface30
+        weight: 1
+      - path: polySurface24/polySurface31
+        weight: 1
+      - path: polySurface24/polySurface32
+        weight: 1
+      - path: polySurface24/polySurface33
+        weight: 1
+      - path: polySurface24/polySurface34
+        weight: 1
+      - path: polySurface24/polySurface35
+        weight: 1
+      - path: polySurface24/polySurface36
+        weight: 1
+      - path: polySurface24/polySurface37
+        weight: 1
+      - path: polySurface24/polySurface38
+        weight: 1
+      - path: polySurface24/polySurface39
+        weight: 1
+      - path: polySurface24/polySurface40
+        weight: 1
+      - path: polySurface24/polySurface41
+        weight: 1
+      - path: polySurface24/polySurface42
+        weight: 1
+      - path: polySurface24/polySurface43
+        weight: 1
+      - path: polySurface24/polySurface43/transform24
+        weight: 1
+      - path: polySurface24/polySurface44
+        weight: 1
+      - path: polySurface24/polySurface44/transform23
+        weight: 1
+      - path: polySurface24/transform22
+        weight: 1
+      - path: polySurface45
+        weight: 1
+      - path: polySurface45/transform26
+        weight: 1
+      - path: polySurface46
+        weight: 1
+      - path: Right_Foot_Control
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

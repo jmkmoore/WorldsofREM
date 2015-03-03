@@ -15,8 +15,7 @@ public class DollMovement : MonoBehaviour {
     private RaycastHit2D _lastControllerColliderHit;
     private Vector3 _velocity;
 
-    private bool left = true;
-    private bool right = false;
+    public bool left;
 
     public bool inRange = false;
     private int direction = 1;
@@ -135,7 +134,6 @@ public class DollMovement : MonoBehaviour {
     void updateDirection()
     {
         left = !left;
-        right = !right;
     }
 
     void updateAttackColliders(bool attacking)
@@ -148,7 +146,7 @@ public class DollMovement : MonoBehaviour {
         }
         else
         {
-            gameObject.layer = LayerMask.NameToLayer("Enemy");
+            gameObject.layer = LayerMask.NameToLayer("EnemyHurtBox");
             transform.Find("DiveActiveBox").gameObject.SetActive(attacking);
             transform.Find("HeadDiveHurtBox").gameObject.SetActive(attacking);
         }

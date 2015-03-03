@@ -17,12 +17,13 @@ public class EnemyHealth : MonoBehaviour {
 	
 	public void adjustCurrentHealth(int adj){
 		currentHealth += adj;
-		if (currentHealth > 100)
+		if (currentHealth > maxHealth)
 			currentHealth = maxHealth;
 		if(currentHealth < 1)
 			currentHealth = 0;
 		if (currentHealth == 0) {
-			Destroy(gameObject);
+            if (!transform.gameObject.tag.Equals("Boss"))
+    			Destroy(gameObject);
 		}
 	}
 }
